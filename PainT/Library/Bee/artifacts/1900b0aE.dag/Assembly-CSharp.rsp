@@ -361,6 +361,9 @@
 -analyzer:"E:/unityhub/2022.3.22f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Body_click.cs"
 "Assets/Camera_rotate.cs"
+"Assets/painting.cs"
+"Assets/TexturePaintBrush.cs"
+"Assets/TexturePaintTarget.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 
