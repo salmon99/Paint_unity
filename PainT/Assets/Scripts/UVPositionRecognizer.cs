@@ -6,7 +6,7 @@ public class UVPositionRecognizer : MonoBehaviour
 {
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))  // ¸¶¿ì½º Å¬¸¯ °¨Áö
+        if (Input.GetMouseButtonDown(0))  // ë§ˆìš°ìŠ¤ í´ë¦­ ê°ì§€
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
@@ -18,7 +18,7 @@ public class UVPositionRecognizer : MonoBehaviour
                     return;
 
                 Mesh mesh = meshCollider.sharedMesh;
-                Vector2 uv = mesh.uv[hit.triangleIndex * 3];  // UV ÁÂÇ¥ ÃßÃâ
+                Vector2 uv = mesh.uv[hit.triangleIndex * 3];  // UV ì¢Œí‘œ ì¶”ì¶œ
 
                 Debug.Log("UV Position: " + uv);
                 ProcessUVPosition(uv);
@@ -28,7 +28,7 @@ public class UVPositionRecognizer : MonoBehaviour
 
     void ProcessUVPosition(Vector2 uv)
     {
-        // UV À§Ä¡¿¡ µû¸¥ Ã³¸® ·ÎÁ÷ ±¸Çö
+        // UV ìœ„ì¹˜ì— ë”°ë¥¸ ì²˜ë¦¬ ë¡œì§ êµ¬í˜„
         Debug.Log($"Processing at UV: {uv}");
     }
 }
