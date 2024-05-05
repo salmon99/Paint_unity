@@ -1,27 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-// ³¯Â¥ : 2021-06-19 AM 3:00:38
-// ÀÛ¼ºÀÚ : Rito
-
-/*
- * [NOTE]
- * 
- * - Rito/PaintTexture ¸¶Å×¸®¾ó »ç¿ë
- * 
- */
-
-/// <summary> 
-/// ±×¸² ±×·ÁÁú ´ë»ó
-/// </summary>
-[DisallowMultipleComponent]
 public class TexturePaintTarget : MonoBehaviour
 {
-    /***********************************************************************
-    *                               Static Fields
-    ***********************************************************************/
-    #region .
     private static Texture2D ClearTex
     {
         get
@@ -52,70 +33,44 @@ public class TexturePaintTarget : MonoBehaviour
 
     private static readonly string PaintTexPropertyName = "_PaintTex";
 
-    #endregion
-    /***********************************************************************
-    *                               Private Fields
-    ***********************************************************************/
-    #region .
     private MeshRenderer _mr;
 
-    #endregion
-    /***********************************************************************
-    *                               Public Fields
-    ***********************************************************************/
-    #region .
     public int resolution = 512;
     public RenderTexture renderTexture = null;
 
-    #endregion
-    /***********************************************************************
-    *                               Unity Magics
-    ***********************************************************************/
-    #region .
     private void Awake()
     {
         Init();
         InitRenderTexture();
     }
 
-    #endregion
-    /***********************************************************************
-    *                               Private Methods
-    ***********************************************************************/
-    #region .
-
     private void Init()
     {
         TryGetComponent(out _mr);
     }
 
-    /// <summary> ·»´õ ÅØ½ºÃÄ ÃÊ±âÈ­ </summary>
+    /// <summary> ë Œë” í…ìŠ¤ì³ ì´ˆê¸°í™” </summary>
     private void InitRenderTexture()
     {
         renderTexture = new RenderTexture(resolution, resolution, 32);
         Graphics.Blit(ClearTex, renderTexture);
 
-        // ¸¶Å×¸®¾ó ÇÁ·ÎÆÛÆ¼ ºí·Ï ÀÌ¿ëÇÏ¿© ¹èÄª À¯ÁöÇÏ°í
-        // ¸¶Å×¸®¾óÀÇ ÇÁ·ÎÆÛÆ¼¿¡ ·»´õ ÅØ½ºÃÄ ³Ö¾îÁÖ±â
+        // ë§ˆí…Œë¦¬ì–¼ í”„ë¡œí¼í‹° ë¸”ë¡ ì´ìš©í•˜ì—¬ ë°°ì¹­ ìœ ì§€í•˜ê³ 
+        // ë§ˆí…Œë¦¬ì–¼ì˜ í”„ë¡œí¼í‹°ì— ë Œë” í…ìŠ¤ì³ ë„£ì–´ì£¼ê¸°
         TextureBlock.SetTexture(PaintTexPropertyName, renderTexture);
         _mr.SetPropertyBlock(TextureBlock);
     }
 
-    #endregion
-    /***********************************************************************
-    *                               Public Methods
-    ***********************************************************************/
-    #region .
-    /// <summary> ·»´õ ÅØ½ºÃÄ¿¡ ºê·¯½Ã ÅØ½ºÃÄ·Î ±×¸®±â </summary>
+    /// <summary> ë Œë” í…ìŠ¤ì³ì— ë¸ŒëŸ¬ì‹œ í…ìŠ¤ì³ë¡œ ê·¸ë¦¬ê¸° </summary>
     public void DrawTexture(float posX, float posY, float brushSize, Texture2D brushTexture)
     {
-        RenderTexture.active = renderTexture; // ÆäÀÎÆÃÀ» À§ÇØ È°¼º ·»´õ ÅØ½ºÃÄ ÀÓ½Ã ÇÒ´ç
-        GL.PushMatrix();                      // ¸ÅÆ®¸¯½º ÀúÀå
-        GL.LoadPixelMatrix(0, resolution, resolution, 0); // ¾Ë¸ÂÀº Å©±â·Î ÇÈ¼¿ ¸ÅÆ®¸¯½º ¼³Á¤
+        RenderTexture.active = renderTexture; // í˜ì¸íŒ…ì„ ìœ„í•´ í™œì„± ë Œë” í…ìŠ¤ì³ ì„ì‹œ í• ë‹¹
+        GL.PushMatrix();                      // ë§¤íŠ¸ë¦­ìŠ¤ ì €ì¥
+        GL.LoadPixelMatrix(0, resolution, resolution, 0); // ì•Œë§ì€ í¬ê¸°ë¡œ í”½ì…€ ë§¤íŠ¸ë¦­ìŠ¤ ì„¤ì •
 
         float brushPixelSize = brushSize * resolution;
 
-        // ·»´õ ÅØ½ºÃÄ¿¡ ºê·¯½Ã ÅØ½ºÃÄ¸¦ ÀÌ¿ëÇØ ±×¸®±â
+        // ë Œë” í…ìŠ¤ì³ì— ë¸ŒëŸ¬ì‹œ í…ìŠ¤ì³ë¥¼ ì´ìš©í•´ ê·¸ë¦¬ê¸°
         Graphics.DrawTexture(
             new Rect(
                 posX - brushPixelSize * 0.5f,
@@ -126,8 +81,7 @@ public class TexturePaintTarget : MonoBehaviour
             brushTexture
         );
 
-        GL.PopMatrix();              // ¸ÅÆ®¸¯½º º¹±¸
-        RenderTexture.active = null; // È°¼º ·»´õ ÅØ½ºÃÄ ÇØÁ¦
+        GL.PopMatrix();              // ë§¤íŠ¸ë¦­ìŠ¤ ë³µêµ¬
+        RenderTexture.active = null; // í™œì„± ë Œë” í…ìŠ¤ì³ í•´ì œ
     }
-    #endregion
 }

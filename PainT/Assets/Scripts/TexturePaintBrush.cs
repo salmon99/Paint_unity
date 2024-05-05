@@ -2,43 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// ³¯Â¥ : 2021-06-18 AM 2:30:31
-// ÀÛ¼ºÀÚ : Rito
-
-/// <summary> ¸¶¿ì½º µå·¡±×·Î ÅØ½ºÃÄ¿¡ ±×¸² ±×¸®±â </summary>
 [DisallowMultipleComponent]
 public class TexturePaintBrush : MonoBehaviour
 {
-    /***********************************************************************
-    *                               Public Fields
-    ***********************************************************************/
-    #region .
-
     [Range(0.01f, 1f)] public float brushSize = 0.1f;
     public Texture2D brushTexture;
     public Color brushColor = Color.white;
 
-    #endregion
-    /***********************************************************************
-    *                               Private Fields
-    ***********************************************************************/
-    #region .
-
     private TexturePaintTarget paintTarget;
     private Collider prevCollider;
 
-    private Texture2D CopiedBrushTexture; // ½Ç½Ã°£À¸·Î »ö»ó Ä¥ÇÏ´Âµ¥ »ç¿ëµÇ´Â ºê·¯½Ã ÅØ½ºÃÄ Ä«ÇÇº»
-    private Vector2 sameUvPoint; // Á÷Àü ÇÁ·¹ÀÓ¿¡ ¸¶¿ì½º°¡ À§Ä¡ÇÑ ´ë»ó UV ÁöÁ¡ (µ¿ÀÏ À§Ä¡¿¡ ÁßÃ¸ÇØ¼­ ±×¸®´Â Çö»ó ¹æÁö)
+    private Texture2D CopiedBrushTexture; // ì‹¤ì‹œê°„ìœ¼ë¡œ ìƒ‰ìƒ ì¹ í•˜ëŠ”ë° ì‚¬ìš©ë˜ëŠ” ë¸ŒëŸ¬ì‹œ í…ìŠ¤ì³ ì¹´í”¼ë³¸
+    private Vector2 sameUvPoint; // ì§ì „ í”„ë ˆì„ì— ë§ˆìš°ìŠ¤ê°€ ìœ„ì¹˜í•œ ëŒ€ìƒ UV ì§€ì  (ë™ì¼ ìœ„ì¹˜ì— ì¤‘ì²©í•´ì„œ ê·¸ë¦¬ëŠ” í˜„ìƒ ë°©ì§€)
 
-    #endregion
-
-    /***********************************************************************
-    *                               Unity Events
-    ***********************************************************************/
-    #region .
     private void Awake()
     {
-        // µî·ÏÇÑ ºê·¯½Ã ÅØ½ºÃÄ°¡ ¾øÀ» °æ¿ì, ¿ø ¸ğ¾çÀÇ ÅØ½ºÃÄ »ı¼º
+        // ë“±ë¡í•œ ë¸ŒëŸ¬ì‹œ í…ìŠ¤ì³ê°€ ì—†ì„ ê²½ìš°, ì› ëª¨ì–‘ì˜ í…ìŠ¤ì³ ìƒì„±
         if (brushTexture == null)
         {
             CreateDefaultBrushTexture();
@@ -58,14 +37,14 @@ public class TexturePaintBrush : MonoBehaviour
             Collider currentCollider = hit.collider;
             if (currentCollider != null)
             {
-                // ´ë»ó ÂüÁ¶ °»½Å
+                // ëŒ€ìƒ ì°¸ì¡° ê°±ì‹ 
                 if (prevCollider == null || prevCollider != currentCollider)
                 {
                     prevCollider = currentCollider;
                     currentCollider.TryGetComponent(out paintTarget);
                 }
 
-                // µ¿ÀÏÇÑ ÁöÁ¡¿¡´Â ÁßÃ¸ÇÏ¿© ´Ù½Ã ±×¸®Áö ¾ÊÀ½
+                // ë™ì¼í•œ ì§€ì ì—ëŠ” ì¤‘ì²©í•˜ì—¬ ë‹¤ì‹œ ê·¸ë¦¬ì§€ ì•ŠìŒ
                 if (sameUvPoint != hit.lightmapCoord)
                 {
                     sameUvPoint = hit.lightmapCoord;
@@ -77,25 +56,15 @@ public class TexturePaintBrush : MonoBehaviour
             }
         }
     }
-    #endregion
-    /***********************************************************************
-    *                               Public Methods
-    ***********************************************************************/
-    #region .
-    /// <summary> ºê·¯½Ã »ö»ó º¯°æ </summary>
+    
+    /// <summary> ë¸ŒëŸ¬ì‹œ ìƒ‰ìƒ ë³€ê²½ </summary>
     public void SetBrushColor(in Color color)
     {
         brushColor = color;
         CopyBrushTexture();
     }
 
-    #endregion
-    /***********************************************************************
-    *                               Private Methods
-    ***********************************************************************/
-    #region .
-
-    /// <summary> ±âº» ÇüÅÂ(¿ø)ÀÇ ºê·¯½Ã ÅØ½ºÃÄ »ı¼º </summary>
+    /// <summary> ê¸°ë³¸ í˜•íƒœ(ì›)ì˜ ë¸ŒëŸ¬ì‹œ í…ìŠ¤ì³ ìƒì„± </summary>
     private void CreateDefaultBrushTexture()
     {
         int res = 512;
@@ -122,15 +91,15 @@ public class TexturePaintBrush : MonoBehaviour
         brushTexture.Apply();
     }
 
-    /// <summary> ¿øº» ºê·¯½Ã ÅØ½ºÃÄ -> ½ÇÁ¦ ºê·¯½Ã ÅØ½ºÃÄ(»ö»ó Àû¿ë) º¹Á¦ </summary>
+    /// <summary> ì›ë³¸ ë¸ŒëŸ¬ì‹œ í…ìŠ¤ì³ -> ì‹¤ì œ ë¸ŒëŸ¬ì‹œ í…ìŠ¤ì³(ìƒ‰ìƒ ì ìš©) ë³µì œ </summary>
     private void CopyBrushTexture()
     {
         if (brushTexture == null) return;
 
-        // ±âÁ¸ÀÇ Ä«ÇÇ ÅØ½ºÃÄ´Â ¸Ş¸ğ¸® ÇØÁ¦
+        // ê¸°ì¡´ì˜ ì¹´í”¼ í…ìŠ¤ì³ëŠ” ë©”ëª¨ë¦¬ í•´ì œ
         DestroyImmediate(CopiedBrushTexture);
 
-        // »õ·Ó°Ô ÇÒ´ç
+        // ìƒˆë¡­ê²Œ í• ë‹¹
         {
             CopiedBrushTexture = new Texture2D(brushTexture.width, brushTexture.height);
             CopiedBrushTexture.filterMode = FilterMode.Point;
@@ -156,13 +125,8 @@ public class TexturePaintBrush : MonoBehaviour
         Debug.Log("Copy Brush Texture");
     }
 
-    #endregion
-    /***********************************************************************
-    *                               Editor Only
-    ***********************************************************************/
-    #region .
 #if UNITY_EDITOR
-    // »ö»ó º¯°æ °¨ÁöÇÏ¿© ºê·¯½Ã ÅØ½ºÃÄ ´Ù½Ã º¹Á¦
+    // ìƒ‰ìƒ ë³€ê²½ ê°ì§€í•˜ì—¬ ë¸ŒëŸ¬ì‹œ í…ìŠ¤ì³ ë‹¤ì‹œ ë³µì œ
     private Color prevBrushColor;
     private float brushTextureUpdateCounter = 0f;
     private const float BrushTextureUpdateCounterInitValue = 0.7f;
@@ -190,5 +154,4 @@ public class TexturePaintBrush : MonoBehaviour
             brushTextureUpdateCounter = 9999f;
         }
     }
-    #endregion
 }

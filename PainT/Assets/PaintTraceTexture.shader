@@ -13,7 +13,7 @@ Shader "Paint/PaintTraceTexture"
         LOD 200
 
         CGPROGRAM
-        // Physically based Standard lighting model, and enable shadows on all light types
+
         #pragma surface surf Standard fullforwardshadows
 
         sampler2D _MainTex;
@@ -28,13 +28,10 @@ Shader "Paint/PaintTraceTexture"
 
         UNITY_INSTANCING_BUFFER_START(Props)
 
-            //UNITY_DEFINE_INSTANCED_PROP(sampler2D, _PaintTex)
-
         UNITY_INSTANCING_BUFFER_END(Props)
 
         void surf (Input IN, inout SurfaceOutputStandard o)
         {
-            //sampler2D paintTex = UNITY_ACCESS_INSTANCED_PROP(Props, _PaintTex);
 
             fixed4 main = tex2D (_MainTex, IN.uv_MainTex) * _Color;
             fixed4 painted = tex2D (_PaintTex, IN.uv_MainTex);
