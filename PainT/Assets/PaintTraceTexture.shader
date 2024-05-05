@@ -1,10 +1,11 @@
-Shader "Rito/PaintTexture"
+Shader "Paint/PaintTraceTexture"
 {
     Properties
     {
         _Color ("Tint Color", Color) = (1, 1, 1, 1)
         _MainTex ("Main Texture", 2D) = "white" {}
         _PaintTex ("Painted Texture", 2D) = "black" {}
+        _TrackTex ("Tracking Texture", 2D) = "black" {}
     }
     SubShader
     {
@@ -17,6 +18,7 @@ Shader "Rito/PaintTexture"
 
         sampler2D _MainTex;
         sampler2D _PaintTex;
+        sampler2D _TrackTex;
         fixed4 _Color;
 
         struct Input
@@ -36,9 +38,9 @@ Shader "Rito/PaintTexture"
 
             fixed4 main = tex2D (_MainTex, IN.uv_MainTex) * _Color;
             fixed4 painted = tex2D (_PaintTex, IN.uv_MainTex);
+            fixed4 track = tex2D(_TrackTex, IN.uv_MainTex);
 
             o.Emission = lerp(main.rgb, painted.rgb, painted.a);
-
             o.Alpha = main.a * painted.a;
         }
         ENDCG
