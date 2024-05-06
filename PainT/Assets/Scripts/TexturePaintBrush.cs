@@ -22,7 +22,6 @@ public class TexturePaintBrush : MonoBehaviour
         {
             CreateDefaultBrushTexture();
         }
-
         CopyBrushTexture();
     }
 

@@ -470,7 +470,7 @@ GameObject:
   - component: {fileID: 2031467478}
   - component: {fileID: 2031467477}
   m_Layer: 0
-  m_Name: empty
+  m_Name: Brush
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
