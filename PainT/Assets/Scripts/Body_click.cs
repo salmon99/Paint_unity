@@ -4,37 +4,37 @@ using UnityEngine;
 
 public class CameraZoomToObject : MonoBehaviour
 {
-    public Transform targetObject; // È®´ëÇÏ¿© º¸¿©ÁÙ °³Ã¼ÀÇ Transform
-    public float zoomDistance = 5f; // °³Ã¼·ÎºÎÅÍÀÇ Ä«¸Ş¶ó °Å¸®
+    public Transform targetObject; // í™•ëŒ€í•˜ì—¬ ë³´ì—¬ì¤„ ê°œì²´ì˜ Transform
+    public float zoomDistance = 5f; // ê°œì²´ë¡œë¶€í„°ì˜ ì¹´ë©”ë¼ ê±°ë¦¬
 
-    private Vector3 originalCameraPosition; // ¿ø·¡ Ä«¸Ş¶ó À§Ä¡ ÀúÀå
-    private bool isZoomed = false; // °³Ã¼¸¦ È®´ë ÁßÀÎÁö ¿©ºÎ¸¦ ³ªÅ¸³»´Â ÇÃ·¡±×
+    private Vector3 originalCameraPosition; // ì›ë˜ ì¹´ë©”ë¼ ìœ„ì¹˜ ì €ì¥
+    private bool isZoomed = false; // ê°œì²´ë¥¼ í™•ëŒ€ ì¤‘ì¸ì§€ ì—¬ë¶€ë¥¼ ë‚˜íƒ€ë‚´ëŠ” í”Œë˜ê·¸
 
     void Start()
     {
-        // ¿ø·¡ Ä«¸Ş¶ó À§Ä¡ ÀúÀå
+        // ì›ë˜ ì¹´ë©”ë¼ ìœ„ì¹˜ ì €ì¥
         originalCameraPosition = transform.position;
     }
 
     void Update()
     {
-        // ¸¶¿ì½º ¿ŞÂÊ ¹öÆ°À» Å¬¸¯ÇÏ¸é¼­ °³Ã¼¿¡ ¸¶¿ì½º Ä¿¼­°¡ ÀÖÀ» ¶§
+        // ë§ˆìš°ìŠ¤ ì™¼ìª½ ë²„íŠ¼ì„ í´ë¦­í•˜ë©´ì„œ ê°œì²´ì— ë§ˆìš°ìŠ¤ ì»¤ì„œê°€ ìˆì„ ë•Œ
         if (Input.GetMouseButtonDown(0))
         {
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-            // Raycast¸¦ »ç¿ëÇÏ¿© °³Ã¼¿¡ Ãæµ¹ÇÏ´ÂÁö È®ÀÎ
+            // Raycastë¥¼ ì‚¬ìš©í•˜ì—¬ ê°œì²´ì— ì¶©ëŒí•˜ëŠ”ì§€ í™•ì¸
             if (Physics.Raycast(ray, out hit) && hit.transform == targetObject)
             {
-                // °³Ã¼¸¦ È®´ëÇÏ°Å³ª ¿ø·¡ À§Ä¡·Î µÇµ¹¸³´Ï´Ù.
+                // ê°œì²´ë¥¼ í™•ëŒ€í•˜ê±°ë‚˜ ì›ë˜ ìœ„ì¹˜ë¡œ ë˜ëŒë¦½ë‹ˆë‹¤.
                 if (!isZoomed)
                 {
-                    // °³Ã¼¸¦ ºñÃß´Â ¹æÇâÀ¸·Î Ä«¸Ş¶ó ÀÌµ¿
+                    // ê°œì²´ë¥¼ ë¹„ì¶”ëŠ” ë°©í–¥ìœ¼ë¡œ ì¹´ë©”ë¼ ì´ë™
                     Vector3 directionToTarget = (targetObject.position - transform.position).normalized;
                     transform.position = targetObject.position - directionToTarget * zoomDistance;
 
-                    // Ä«¸Ş¶óÀÇ ³ôÀÌ¸¦ ´ë»óÀÇ ³ôÀÌ¿Í µ¿ÀÏÇÏ°Ô ¼³Á¤
+                    // ì¹´ë©”ë¼ì˜ ë†’ì´ë¥¼ ëŒ€ìƒì˜ ë†’ì´ì™€ ë™ì¼í•˜ê²Œ ì„¤ì •
                     Vector3 cameraPosition = transform.position;
                     cameraPosition.y = targetObject.position.y;
                     transform.position = cameraPosition;
@@ -43,7 +43,7 @@ public class CameraZoomToObject : MonoBehaviour
                 }
                 else
                 {
-                    // ¿ø·¡ Ä«¸Ş¶ó À§Ä¡·Î µÇµ¹¸®±â
+                    // ì›ë˜ ì¹´ë©”ë¼ ìœ„ì¹˜ë¡œ ë˜ëŒë¦¬ê¸°
                     transform.position = originalCameraPosition;
                     isZoomed = false;
                 }

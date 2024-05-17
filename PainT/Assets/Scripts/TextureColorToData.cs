@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using System;
+using UnityEngine.Networking;
 
 public class TextureColorToData : MonoBehaviour
 {
@@ -11,36 +12,52 @@ public class TextureColorToData : MonoBehaviour
 
     void Start()
     {
-        ReadCSV();
+        StartCoroutine(ReadCSV());
     }
 
-    void ReadCSV()
+    IEnumerator ReadCSV()
     {
-        string path = "Assets/신체부위매칭.csv";
-        using (var reader = new StreamReader(path))
+        string path = Path.Combine(Application.streamingAssetsPath, "bodyPartMatch.csv");
+        using (UnityWebRequest www = UnityWebRequest.Get(path))
         {
-            bool isFirstLine = true;
-            while (!reader.EndOfStream)
+            yield return www.SendWebRequest();
+
+            if (www.result != UnityWebRequest.Result.Success)
             {
-                var line = reader.ReadLine();
-                if (isFirstLine)
-                {
-                    isFirstLine = false;
-                    continue;
-                }
-
-                var values = line.Split(',');
-
-                DataItem item = new DataItem
-                {
-                    Num = values[0].Replace("\"",""),
-                    BodyPartKR = values[1].Replace("\"",""),
-                    BodyPartEN = values[2].Replace("\"",""),
-                    ColorCode = values[3].Replace("\"",""),
-                };
-                dataList.Add(item);
-                Debug.Log("Data line1 : " + item.ColorCode);
+                Debug.LogError("Error: " + www.error);
             }
+            else
+            {
+                ParseCSV(www.downloadHandler.text);
+            }
+        }
+    }
+
+    void ParseCSV(string csvData)
+    {
+        string[] lines = csvData.Split('\n');
+        bool isFirstLine = true;
+
+        foreach (var line in lines)
+        {
+            if (isFirstLine)
+            {
+                isFirstLine = false;
+                continue;
+            }
+            if (line == "") continue;
+
+            var values = line.Split(',');
+
+            DataItem item = new DataItem
+            {
+                Num = values[0].Replace("\"", ""),
+                BodyPartKR = values[1].Replace("\"", ""),
+                BodyPartEN = values[2].Replace("\"", ""),
+                ColorCode = values[3].Replace("\"", ""),
+            };
+            dataList.Add(item);
+            Debug.Log("Data line : " + item.ColorCode);
         }
     }
     void Update()
