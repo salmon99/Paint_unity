@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638476737577046364
-    m_Hash: 3979243220
+      ticks: 638519557544360597
+    m_Hash: 3785759203
   m_LockFileStatus:
     m_FilePath: E:/github/Unity/PainT/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638476737989684586
-    m_Hash: 2511475638
+      ticks: 638519557544400637
+    m_Hash: 2037695472
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -564,6 +564,7 @@ m_ResolvedPackages:
     - 1.4.1
     - 1.4.2
     - 1.4.3
+    - 1.4.4
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -583,6 +584,7 @@ m_ResolvedPackages:
     - 1.4.1
     - 1.4.2
     - 1.4.3
+    - 1.4.4
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -753,6 +755,7 @@ m_ResolvedPackages:
     - 3.0.6
     - 3.0.7
     - 3.0.8
+    - 3.0.9
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
@@ -768,6 +771,7 @@ m_ResolvedPackages:
     - 3.0.6
     - 3.0.7
     - 3.0.8
+    - 3.0.9
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
@@ -779,7 +783,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.9
     - 4.0.0-pre.1
     - 4.0.0-pre.2
-    recommended: 3.0.8
+    recommended: 3.0.9
     deprecated: []
   dependencies:
   - name: com.unity.ugui
@@ -1016,6 +1020,7 @@ m_ResolvedPackages:
     - 1.0.0
     - 3.0.0-exp.1
     - 3.0.0-exp.3
+    - 3.0.0-exp.4
     compatible:
     - 1.0.0
     recommended: 1.0.0
@@ -1112,9 +1117,11 @@ m_ResolvedPackages:
     - 1.9.0
     - 1.9.1
     - 1.9.2
+    - 1.9.4
     compatible:
     - 1.9.2
-    recommended: 1.9.2
+    - 1.9.4
+    recommended: 1.9.4
     deprecated:
     - 1.8.0-pre.1
   dependencies:
@@ -3171,9 +3178,13 @@ m_ResolvedPackages:
     - 1.2.3
     - 1.3.2
     - 1.4.0
+    - 1.4.1
+    - 1.4.2
     compatible:
     - 1.4.0
-    recommended: 1.4.0
+    - 1.4.1
+    - 1.4.2
+    recommended: 1.4.2
     deprecated: []
   dependencies: []
   resolvedDependencies: []
