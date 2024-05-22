@@ -8,39 +8,49 @@ public class TextureColorToData : MonoBehaviour
 {
     public Renderer targetRenderer;
     public List<DataItem> dataList = new List<DataItem>();
+	public string textureName = "female";
 
     void Start()
     {
+		Texture2D loadedTexture = Resources.Load<Texture2D>(textureName);
+		if (loadedTexture != null)
+        {
+            // 텍스처를 쉐이더 프로퍼티에 적용
+            targetRenderer.material.SetTexture("_TrackTex", loadedTexture);
+        }
+        else
+        {
+            Debug.LogError("텍스처를 로드할 수 없습니다: " + textureName);
+        }
         ReadCSV();
     }
 
     void ReadCSV()
     {
-        string path = "Assets/신체부위매칭.csv";
-        using (var reader = new StreamReader(path))
-        {
-            bool isFirstLine = true;
-            while (!reader.EndOfStream)
+        TextAsset csvData = Resources.Load<TextAsset>("BodyPartMatch");
+    	if (csvData == null)
+    	{
+        	Debug.LogError("CSV file not found in Resources folder");
+        	return;
+    	}
+
+    	string[] lines = csvData.text.Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+
+    	foreach (string line in lines)
+    	{
+        	if (string.IsNullOrEmpty(line)) continue;
+
+            var values = line.Split(',');
+
+            DataItem item = new DataItem
             {
-                var line = reader.ReadLine();
-                if (isFirstLine)
-                {
-                    isFirstLine = false;
-                    continue;
-                }
-
-                var values = line.Split(',');
-
-                DataItem item = new DataItem
-                {
-                    Num = values[0].Replace("\"",""),
-                    BodyPartKR = values[1].Replace("\"",""),
-                    BodyPartEN = values[2].Replace("\"",""),
-                    ColorCode = values[3].Replace("\"",""),
-                };
-                dataList.Add(item);
-                Debug.Log("Data line1 : " + item.ColorCode);
-            }
+                Num = values[0].Replace("\"",""),
+                BodyPartKR = values[1].Replace("\"",""),
+                BodyPartEN = values[2].Replace("\"",""),
+                ColorCode = values[3].Replace("\"",""),
+            };
+            dataList.Add(item);
+            Debug.Log("Data line : " + item.ColorCode);
         }
     }
     void Update()
@@ -67,9 +77,10 @@ public class TextureColorToData : MonoBehaviour
             Vector2 pixelUV = hit.textureCoord;
             pixelUV.x *= tex.width;
             pixelUV.y *= tex.height;
+			Debug.Log(pixelUV.x+","+pixelUV.y);
             return tex.GetPixel((int)pixelUV.x, (int)pixelUV.y);
         }
-
+		Debug.Log("RaycastHit이 올바르게 반환되지 않음.");
         return Color.black;
     }
     public void FindDataByColor(string inputColorCode, List<DataItem> dataList)

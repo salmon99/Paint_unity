@@ -37,8 +37,11 @@ Shader "Paint/PaintTraceTexture"
             fixed4 painted = tex2D (_PaintTex, IN.uv_MainTex);
             fixed4 track = tex2D(_TrackTex, IN.uv_MainTex);
 
-            o.Emission = lerp(main.rgb, painted.rgb, painted.a);
-            o.Alpha = main.a * painted.a;
+            fixed alphaBlend = saturate(painted.a + main.a * (1 - painted.a));
+            fixed4 blendResult = lerp(main, painted, painted.a / alphaBlend);
+            
+            o.Albedo = blendResult.rgb;
+            o.Alpha = alphaBlend;
         }
         ENDCG
     }

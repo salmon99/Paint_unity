@@ -24,17 +24,18 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-      "Action": "\"E:/unityhub/2022.3.24f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"E:/unityhub/2022.3.24f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\Unity.AdaptivePerformance.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\Unity.Notifications.Android.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\Unity.Notifications.iOS.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\Unity.Notifications.Unified.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\Unity.Profiling.Core.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\Unity.Subsystem.Registration.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\PackageCache\\com.unity.visualscripting@1.9.2\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\Managed\" -s=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\" -s=\"E:\\github\\Unity\\PainT\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"E:\\github\\Unity\\PainT\\Library\\PackageCache\\com.unity.visualscripting@1.9.2\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"E:/unityhub/2022.3.24f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"E:/unityhub/2022.3.24f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\Unity.AdaptivePerformance.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\Unity.AdaptivePerformance.Google.Android.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\Unity.AdaptivePerformance.Samsung.Android.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\Unity.Notifications.Android.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\Unity.Notifications.iOS.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\Unity.Notifications.Unified.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\Unity.Profiling.Core.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"E:\\github\\Unity\\PainT\\Library\\PackageCache\\com.unity.visualscripting@1.9.2\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\Managed\" -s=\"E:\\github\\Unity\\PainT\\Library\\ScriptAssemblies\" -s=\"E:\\github\\Unity\\PainT\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"E:\\github\\Unity\\PainT\\Library\\PackageCache\\com.unity.visualscripting@1.9.2\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "E:/unityhub/2022.3.24f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "E:/unityhub/2022.3.24f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
         "Library/ScriptAssemblies/Assembly-CSharp.dll",
         "Library/ScriptAssemblies/Unity.AdaptivePerformance.dll",
+        "Library/ScriptAssemblies/Unity.AdaptivePerformance.Google.Android.dll",
+        "Library/ScriptAssemblies/Unity.AdaptivePerformance.Samsung.Android.dll",
         "Library/ScriptAssemblies/Unity.Notifications.Android.dll",
         "Library/ScriptAssemblies/Unity.Notifications.iOS.dll",
         "Library/ScriptAssemblies/Unity.Notifications.Unified.dll",
         "Library/ScriptAssemblies/Unity.Profiling.Core.dll",
-        "Library/ScriptAssemblies/Unity.Subsystem.Registration.dll",
         "Library/ScriptAssemblies/Unity.TextMeshPro.dll",
         "Library/ScriptAssemblies/Unity.Timeline.dll",
         "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll",
@@ -195,6 +196,12 @@
       "File": "Library/ScriptAssemblies/Unity.AdaptivePerformance.dll"
     },
     {
+      "File": "Library/ScriptAssemblies/Unity.AdaptivePerformance.Google.Android.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.AdaptivePerformance.Samsung.Android.dll"
+    },
+    {
       "File": "Library/ScriptAssemblies/Unity.Notifications.Android.dll"
     },
     {
@@ -205,9 +212,6 @@
     },
     {
       "File": "Library/ScriptAssemblies/Unity.Profiling.Core.dll"
-    },
-    {
-      "File": "Library/ScriptAssemblies/Unity.Subsystem.Registration.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Unity.TextMeshPro.dll"

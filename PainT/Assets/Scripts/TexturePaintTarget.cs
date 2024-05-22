@@ -37,7 +37,7 @@ public class TexturePaintTarget : MonoBehaviour
 
     public int resolution = 512;
     public RenderTexture renderTexture = null;
-
+    
     private void Awake()
     {
         Init();

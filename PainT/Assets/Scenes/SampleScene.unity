@@ -490,7 +490,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brushSize: 0.03
   brushTexture: {fileID: 0}
-  brushColor: {r: 0.8396226, g: 0, b: 0, a: 1}
+  brushColor: {r: 0.8867924, g: 0, b: 0, a: 1}
 --- !u!4 &2031467478
 Transform:
   m_ObjectHideFlags: 0
@@ -1920,6 +1920,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetRenderer: {fileID: 4790494677785515393}
   dataList: []
+  textureName: female
 --- !u!114 &5775138168430107527
 MonoBehaviour:
   m_ObjectHideFlags: 0

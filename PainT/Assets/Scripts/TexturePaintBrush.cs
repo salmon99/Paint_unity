@@ -7,7 +7,7 @@ public class TexturePaintBrush : MonoBehaviour
 {
     [Range(0.01f, 1f)] public float brushSize = 0.1f;
     public Texture2D brushTexture;
-    public Color brushColor = Color.white;
+    public Color brushColor = Color.black;
 
     private TexturePaintTarget paintTarget;
     private Collider prevCollider;
@@ -27,8 +27,9 @@ public class TexturePaintBrush : MonoBehaviour
 
     private void Update()
     {
+#if UNITY_EDITOR
         UpdateBrushColorOnEditor();
-
+#endif
         if (Input.GetMouseButton(0) == false) return;
 
         if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out var hit)) // delete previous and uncomment for mouse painting
@@ -70,9 +71,8 @@ public class TexturePaintBrush : MonoBehaviour
         float hRes = res * 0.5f;
         float sqrSize = hRes * hRes;
 
-        brushTexture = new Texture2D(res, res);
+        brushTexture = new Texture2D(res, res, TextureFormat.RGBA32, true);
         brushTexture.filterMode = FilterMode.Point;
-        brushTexture.alphaIsTransparency = true;
 
         for (int y = 0; y < res; y++)
         {
@@ -100,9 +100,8 @@ public class TexturePaintBrush : MonoBehaviour
 
         // 새롭게 할당
         {
-            CopiedBrushTexture = new Texture2D(brushTexture.width, brushTexture.height);
+            CopiedBrushTexture = new Texture2D(brushTexture.width, brushTexture.height, TextureFormat.RGBA32, true);
             CopiedBrushTexture.filterMode = FilterMode.Point;
-            CopiedBrushTexture.alphaIsTransparency = true;
         }
 
         int height = brushTexture.height;
@@ -137,7 +136,7 @@ public class TexturePaintBrush : MonoBehaviour
             prevBrushColor = brushColor;
         }
     }
-#endif
+
     [System.Diagnostics.Conditional("UNITY_EDITOR")]
     private void UpdateBrushColorOnEditor()
     {
@@ -153,4 +152,5 @@ public class TexturePaintBrush : MonoBehaviour
             brushTextureUpdateCounter = 9999f;
         }
     }
+#endif
 }
