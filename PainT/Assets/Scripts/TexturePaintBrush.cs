@@ -27,8 +27,9 @@ public class TexturePaintBrush : MonoBehaviour
 
     private void Update()
     {
+#if UNITY_EDITOR
         UpdateBrushColorOnEditor();
-
+#endif
         if (Input.GetMouseButton(0) == false) return;
 		
 		float radius = brushSize * 0.5f;
@@ -138,7 +139,6 @@ public class TexturePaintBrush : MonoBehaviour
             prevBrushColor = brushColor;
         }
     }
-#endif
     [System.Diagnostics.Conditional("UNITY_EDITOR")]
     private void UpdateBrushColorOnEditor()
     {
@@ -154,4 +154,5 @@ public class TexturePaintBrush : MonoBehaviour
             brushTextureUpdateCounter = 9999f;
         }
     }
+#endif
 }
