@@ -30,7 +30,8 @@ public class TexturePaintBrush : MonoBehaviour
         UpdateBrushColorOnEditor();
 
         if (Input.GetMouseButton(0) == false) return;
-
+		
+		float radius = brushSize * 0.5f;
         if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out var hit)) // delete previous and uncomment for mouse painting
         {
             Collider currentCollider = hit.collider;
@@ -64,31 +65,32 @@ public class TexturePaintBrush : MonoBehaviour
     }
 
     /// <summary> 기본 형태(원)의 브러시 텍스쳐 생성 </summary>
-    private void CreateDefaultBrushTexture()
-    {
-        int res = 512;
-        float hRes = res * 0.5f;
-        float sqrSize = hRes * hRes;
+	private void CreateDefaultBrushTexture()
+	{
+    	int res = 512;
+    	float hRes = res * 0.5f;
+    	float sqrSize = hRes * hRes;
 
-        brushTexture = new Texture2D(res, res);
-        brushTexture.filterMode = FilterMode.Point;
-        brushTexture.alphaIsTransparency = true;
+    	brushTexture = new Texture2D(res, res, TextureFormat.RGBA32, false);
+    	brushTexture.filterMode = FilterMode.Bilinear; // 부드러운 필터링을 위해 Bilinear 설정
+    	brushTexture.wrapMode = TextureWrapMode.Clamp; // 텍스처 경계가 반복되지 않도록 Clamp 설정
 
-        for (int y = 0; y < res; y++)
-        {
-            for (int x = 0; x < res; x++)
-            {
-                // Sqaure Length From Center
-                float sqrLen = (hRes - x) * (hRes - x) + (hRes - y) * (hRes - y);
-                float alpha = Mathf.Max(sqrSize - sqrLen, 0f) / sqrSize;
+    	for (int y = 0; y < res; y++)
+    	{
+        	for (int x = 0; x < res; x++)
+        	{
+            	float dx = hRes - x;
+            	float dy = hRes - y;
+            	float sqrLen = dx * dx + dy * dy;
+            	float alpha = Mathf.Clamp01((sqrSize - sqrLen) / sqrSize);
 
-                //brushTexture.SetPixel(x, y, (sqrLen < sqrSize ? brushColor : Color.clear));
-                brushTexture.SetPixel(x, y, new Color(1f, 1f, 1f, alpha));
-            }
-        }
+            	Color c = new Color(1f, 1f, 1f, alpha);
+            	brushTexture.SetPixel(x, y, c);
+        	}
+    	}
 
-        brushTexture.Apply();
-    }
+    	brushTexture.Apply();
+	}
 
     /// <summary> 원본 브러시 텍스쳐 -> 실제 브러시 텍스쳐(색상 적용) 복제 </summary>
     private void CopyBrushTexture()
@@ -100,9 +102,8 @@ public class TexturePaintBrush : MonoBehaviour
 
         // 새롭게 할당
         {
-            CopiedBrushTexture = new Texture2D(brushTexture.width, brushTexture.height);
-            CopiedBrushTexture.filterMode = FilterMode.Point;
-            CopiedBrushTexture.alphaIsTransparency = true;
+            CopiedBrushTexture = new Texture2D(brushTexture.width, brushTexture.height, TextureFormat.RGBA32, false);
+            CopiedBrushTexture.filterMode = FilterMode.Bilinear;
         }
 
         int height = brushTexture.height;

@@ -15,7 +15,7 @@ public class Camera_rotate : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(1))
         {
             xRotateMove = Input.GetAxis("Mouse X") * Time.deltaTime * rotateSpeed;
 
@@ -27,7 +27,6 @@ public class Camera_rotate : MonoBehaviour
             transform.RotateAround(characterPosition, Vector3.up, xRotateMove);
             transform.LookAt(characterPosition);
             Debug.Log("Camera Position: " + cameraPosition);
-            Debug.Log("Current Camera Rotation: " + eulerRotation);
         }
     }
 }

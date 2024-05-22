@@ -8,6 +8,7 @@ public class TextureColorToData : MonoBehaviour
 {
     public Renderer targetRenderer;
     public List<DataItem> dataList = new List<DataItem>();
+	private bool isDragging = false;
 
     void Start()
     {
@@ -44,7 +45,15 @@ public class TextureColorToData : MonoBehaviour
 	}
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+		if (Input.GetMouseButtonDown(0))
+		{
+			isDragging = true;
+		}
+		if(Input.GetMouseButtonUp(0))
+		{
+			isDragging = false;
+		}
+        if (isDragging)
         {
             Vector2 pos = Input.mousePosition;
             Color pixelColor = GetColorFromTexture(pos, "_TrackTex");

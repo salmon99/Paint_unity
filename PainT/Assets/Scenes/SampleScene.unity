@@ -488,7 +488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca29f8d7882852c4da1c40b278ec3ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  brushSize: 0.03
+  brushSize: 0.025
   brushTexture: {fileID: 0}
   brushColor: {r: 0.8396226, g: 0, b: 0, a: 1}
 --- !u!4 &2031467478
