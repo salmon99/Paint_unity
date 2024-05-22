@@ -14,35 +14,34 @@ public class TextureColorToData : MonoBehaviour
         ReadCSV();
     }
 
-    void ReadCSV()
-    {
-        string path = "Assets/신체부위매칭.csv";
-        using (var reader = new StreamReader(path))
-        {
-            bool isFirstLine = true;
-            while (!reader.EndOfStream)
-            {
-                var line = reader.ReadLine();
-                if (isFirstLine)
-                {
-                    isFirstLine = false;
-                    continue;
-                }
+	void ReadCSV()
+	{
+    	TextAsset csvData = Resources.Load<TextAsset>("BodyPartMatch");
+    	if (csvData == null)
+    	{
+        	Debug.LogError("CSV file not found in Resources folder");
+        	return;
+    	}
 
-                var values = line.Split(',');
+    	string[] lines = csvData.text.Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
 
-                DataItem item = new DataItem
-                {
-                    Num = values[0].Replace("\"",""),
-                    BodyPartKR = values[1].Replace("\"",""),
-                    BodyPartEN = values[2].Replace("\"",""),
-                    ColorCode = values[3].Replace("\"",""),
-                };
-                dataList.Add(item);
-                Debug.Log("Data line1 : " + item.ColorCode);
-            }
-        }
-    }
+    	foreach (string line in lines)
+    	{
+        	if (string.IsNullOrEmpty(line)) continue;
+
+        	var values = line.Split(',');
+
+        	DataItem item = new DataItem
+        	{
+            	Num = values[0].Replace("\"", ""),
+            	BodyPartKR = values[1].Replace("\"", ""),
+            	BodyPartEN = values[2].Replace("\"", ""),
+            	ColorCode = values[3].Replace("\"", ""),
+        	};
+        	dataList.Add(item);
+        	Debug.Log("Data line : " + item.ColorCode);
+    	}
+	}
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
