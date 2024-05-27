@@ -26,7 +26,7 @@ public class Camera_rotate : MonoBehaviour
 
             transform.RotateAround(characterPosition, Vector3.up, xRotateMove);
             transform.LookAt(characterPosition);
-            Debug.Log("Camera Position: " + cameraPosition);
+            //Debug.Log("Camera Position: " + cameraPosition);
         }
     }
 }

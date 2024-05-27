@@ -9,6 +9,7 @@ public class TextureColorToData : MonoBehaviour
     public Renderer targetRenderer;
     public List<DataItem> dataList = new List<DataItem>();
 	private bool isDragging = false;
+	private Vector2 sameUvPoint;
 
     void Start()
     {
@@ -71,11 +72,14 @@ public class TextureColorToData : MonoBehaviour
             Renderer renderer = hit.collider.gameObject.GetComponent<Renderer>();
             Material mat = renderer.material; 
             Texture2D tex = mat.GetTexture(textureName) as Texture2D;
-
-            Vector2 pixelUV = hit.textureCoord;
-            pixelUV.x *= tex.width;
-            pixelUV.y *= tex.height;
-            return tex.GetPixel((int)pixelUV.x, (int)pixelUV.y);
+			if (sameUvPoint != hit.lightmapCoord)
+            {
+                sameUvPoint = hit.lightmapCoord;
+            	Vector2 pixelUV = hit.textureCoord;
+            	pixelUV.x *= tex.width;
+            	pixelUV.y *= tex.height;
+            	return tex.GetPixel((int)pixelUV.x, (int)pixelUV.y);    
+            }
         }
 
         return Color.black;
@@ -85,10 +89,11 @@ public class TextureColorToData : MonoBehaviour
         foreach(DataItem item in dataList){
             if (item.ColorCode.Equals(inputColorCode))
             {
-                Debug.Log("Match found! Color Code: " + item.ColorCode + ", Body part: " + item.BodyPartKR + "/" + item.BodyPartEN);
+                //Debug.Log("Match found! Color Code: " + item.ColorCode + ", Body part: " + item.BodyPartKR + "/" + item.BodyPartEN);
+				Debug.Log(item.BodyPartKR + "/" + item.BodyPartEN);
                 return;
             }
-        Debug.Log("No match found for color code: " + inputColorCode);
+        //Debug.Log("No match found for color code: " + inputColorCode);
         }
     }
 }
