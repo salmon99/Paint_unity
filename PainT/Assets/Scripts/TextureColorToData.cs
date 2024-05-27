@@ -72,9 +72,9 @@ public class TextureColorToData : MonoBehaviour
             Renderer renderer = hit.collider.gameObject.GetComponent<Renderer>();
             Material mat = renderer.material; 
             Texture2D tex = mat.GetTexture(textureName) as Texture2D;
-			if (sameUvPoint != hit.lightmapCoord)
+			if (sameUvPoint != hit.textureCoord)
             {
-                sameUvPoint = hit.lightmapCoord;
+                sameUvPoint = hit.textureCoord;
             	Vector2 pixelUV = hit.textureCoord;
             	pixelUV.x *= tex.width;
             	pixelUV.y *= tex.height;

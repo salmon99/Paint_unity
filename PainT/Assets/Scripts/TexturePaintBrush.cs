@@ -46,10 +46,10 @@ public class TexturePaintBrush : MonoBehaviour
                 }
 
                 // 동일한 지점에는 중첩하여 다시 그리지 않음
-                if (sameUvPoint != hit.lightmapCoord)
+                if (sameUvPoint != hit.textureCoord)
                 {
-                    sameUvPoint = hit.lightmapCoord;
-                    Vector2 pixelUV = hit.lightmapCoord;
+                    sameUvPoint = hit.textureCoord;
+                    Vector2 pixelUV = hit.textureCoord;
                     pixelUV.x *= paintTarget.resolution;
                     pixelUV.y *= paintTarget.resolution;
                     paintTarget.DrawTexture(pixelUV.x, pixelUV.y, brushSize, CopiedBrushTexture);
