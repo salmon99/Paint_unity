@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
+using UnityEngine.UI;
 using System.Text;
 
 public class DataUploder : MonoBehaviour{
@@ -11,6 +12,8 @@ public class DataUploder : MonoBehaviour{
     private List<string> bodyPartENLogs = new List<string>();
 
     public string uploadURL = "https://yourserver.com/upload"; //주소 입력 필요
+    
+    public Button uploadButton;
 
     void OnEnable()
     {
@@ -45,16 +48,14 @@ public class DataUploder : MonoBehaviour{
         }
     }
 
-    void Update()
+    void OnUploadButtonClick()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            StartCoroutine(CaptureAndUploadData());
-        }
+        StartCoroutine(CaptureAndUploadData());
     }
-
+    
     private IEnumerator CaptureAndUploadData()
     {
+        uploadButton.gameObject.SetActive(false);
         yield return new WaitForEndOfFrame();
 
         // 스크린샷 캡처
@@ -94,5 +95,6 @@ public class DataUploder : MonoBehaviour{
             bodyPartKRLogs.Clear();
             bodyPartENLogs.Clear();
         }
+        uploadButton.gameObject.SetActive(true);
     }
 }
