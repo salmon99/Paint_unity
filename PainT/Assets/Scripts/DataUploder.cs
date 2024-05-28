@@ -41,14 +41,14 @@ public class DataUploder : MonoBehaviour{
     void HandleLog(string logString, string stackTrace, LogType type)
     {
         string logMessage = $"{type}: {logString}\n{stackTrace}";
-        Debug.Log($"Received log: {logMessage}");
+        //Debug.Log($"Received log: {logMessage}");
         
         // 중복된 로그가 아닌 경우에만 처리
         if (!logMessagesSet.Contains(logMessage))
         {
             logMessagesSet.Add(logMessage);
             string[] splitLog = logString.Split('/');
-            Debug.Log($"splitLog Length: {splitLog.Length}");
+            //Debug.Log($"splitLog Length: {splitLog.Length}");
             
             if (splitLog.Length == 2)
             {
@@ -56,7 +56,7 @@ public class DataUploder : MonoBehaviour{
                 string bodyPartEN = splitLog[1].Trim();
                 bodyPartKRLogs.Add(bodyPartKR);
                 bodyPartENLogs.Add(bodyPartEN);
-                Debug.Log($"Added log: {bodyPartKR} / {bodyPartEN}");
+                //Debug.Log($"Added log: {bodyPartKR} / {bodyPartEN}");
             }
             else
             {
@@ -99,8 +99,8 @@ public class DataUploder : MonoBehaviour{
         byte[] imageBytes1 = screenImage1.EncodeToPNG();
         byte[] imageBytes2 = screenImage2.EncodeToPNG();
 
-        Debug.Log($"bodyPartKRLogs: {string.Join(", ", bodyPartKRLogs)}");
-        Debug.Log($"bodyPartENLogs: {string.Join(", ", bodyPartENLogs)}");
+        //Debug.Log($"bodyPartKRLogs: {string.Join(", ", bodyPartKRLogs)}");
+        //Debug.Log($"bodyPartENLogs: {string.Join(", ", bodyPartENLogs)}");
 
         // 로그 메시지를 JSON 형식으로 변환
         LogData logData = new LogData
@@ -109,7 +109,7 @@ public class DataUploder : MonoBehaviour{
             BodyPartEN = bodyPartENLogs.ToArray() 
         };
         string jsonLogData = JsonUtility.ToJson(logData);
-        Debug.Log($"JSON Log Data: {jsonLogData}");
+        //Debug.Log($"JSON Log Data: {jsonLogData}");
 
         // FormData 생성
         WWWForm form = new WWWForm();
@@ -130,6 +130,10 @@ public class DataUploder : MonoBehaviour{
         else
         {
             Debug.Log("Data uploaded successfully");
+            
+            string jsonResponse = www.downloadHandler.text;
+            Debug.Log("Server Response: " + jsonResponse);
+
             // 업로드 후 로그 초기화
             bodyPartKRLogs.Clear();
             bodyPartENLogs.Clear();

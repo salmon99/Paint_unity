@@ -608,7 +608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: {fileID: 6205726382206226987}
-  rotateSpeed: 500
+  rotateSpeed: 700
 --- !u!1 &1085634505
 GameObject:
   m_ObjectHideFlags: 0
