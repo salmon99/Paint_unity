@@ -41,7 +41,7 @@ public class TextureColorToData : MonoBehaviour
             	ColorCode = values[3].Replace("\"", ""),
         	};
         	dataList.Add(item);
-        	Debug.Log("Data line : " + item.ColorCode);
+        	//Debug.Log("Data line : " + item.ColorCode);
     	}
 	}
     void Update()
