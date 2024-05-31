@@ -368,7 +368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f1fd2cb6b3e9934b812b8916ead6d3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uploadURL: http://localhost:8080/unity/images
+  uploadURL: http://chi-iu.com/unity/images
   uploadButton: {fileID: 108700476}
   mainCamera: {fileID: 963194227}
   model: {fileID: 597187927237970627}

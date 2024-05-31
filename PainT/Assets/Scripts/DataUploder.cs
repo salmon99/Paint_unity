@@ -17,7 +17,7 @@ public class DataUploder : MonoBehaviour{
     private List<string> bodyPartKRLogs = new List<string>();
     private List<string> bodyPartENLogs = new List<string>();
 
-    public string uploadURL = "http://localhost:8080/unity/images";
+    public string uploadURL = "http://chi-iu.com/unity/images";
     
     public Button uploadButton;
 
@@ -113,7 +113,7 @@ public class DataUploder : MonoBehaviour{
 
         // FormData 생성
         WWWForm form = new WWWForm();
-        form.AddField("userName", "user000");
+        form.AddField("username", "user123");
         form.AddField("logData", jsonLogData);
         form.AddBinaryData("files", imageBytes1, "screenshot1.png", "image/png");
         form.AddBinaryData("files", imageBytes2, "screenshot2.png", "image/png");
