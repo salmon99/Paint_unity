@@ -19,7 +19,7 @@ public class DataUploader : MonoBehaviour{
 
     public string uploadURL = "http://chi-iu.com/unity/images";
     
-    public Button uploadButton;
+//    public Button uploadButton;
 
     public Camera mainCamera;
     public Transform model;
@@ -66,10 +66,10 @@ public class DataUploader : MonoBehaviour{
         }
     }
 
-    void Start()
-    {
-        uploadButton.onClick.AddListener(OnUploadButtonClick);
-    }
+//    void Start()
+//    {
+//        uploadButton.onClick.AddListener(OnUploadButtonClick);
+//    }
     
     void OnUploadButtonClick()
     {
@@ -78,7 +78,7 @@ public class DataUploader : MonoBehaviour{
     
     private IEnumerator CaptureAndUploadData()
     {
-        uploadButton.gameObject.SetActive(false);
+//        uploadButton.gameObject.SetActive(false);
         
         // 초기 위치에서 스크린샷 캡처        
         mainCamera.transform.position = initialCameraPosition;
@@ -138,7 +138,7 @@ public class DataUploader : MonoBehaviour{
             bodyPartKRLogs.Clear();
             bodyPartENLogs.Clear();
         }
-        uploadButton.gameObject.SetActive(true);
+//        uploadButton.gameObject.SetActive(true);
     }
     
     private Texture2D CaptureScreenshot()

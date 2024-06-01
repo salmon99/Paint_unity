@@ -385,6 +385,7 @@
 -r:"Library/Bee/artifacts/900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"E:/unityhub/2022.3.24f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"E:/unityhub/2022.3.24f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Editor/PostProcessBuildClass.cs"
 "Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs"
 -langversion:9.0
 

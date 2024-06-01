@@ -1,12 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
-    Assembly-CSharp-Editor.dll:
-    - ReadmeEditor
     Assembly-CSharp.dll:
     - CameraZoomToObject
     - Camera_rotate
-    - DataUploder
-    - Readme
+    - DataUploader
+    - LogForwarder
     - TextureColorToData
     - TexturePaintBrush
     - TexturePaintTarget
@@ -24,9 +22,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_StyleSheet
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
-    - TMPro.TMP_Settings
-    - TMPro.TMP_SpriteAsset
-    - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -126,6 +121,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 19242}
     - Class: 114
       Script: {instanceID: 19502}
+    - Class: 114
+      Script: {instanceID: 19822}
     - Class: 114
       Script: {instanceID: 20210}
     - Class: 114
@@ -275,10 +272,10 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreakMessageListener
   - hash:
       serializedVersion: 2
-      Hash: e39191c8980d202559b0289b03160a5c
+      Hash: f83c9430f696831bfa92629406bb93c1
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: DataUploder
+    className: DataUploader
   - hash:
       serializedVersion: 2
       Hash: 1ab136900c0edaeeb49424c852595030
