@@ -30,11 +30,44 @@ public class TexturePaintBrush : MonoBehaviour
 #if UNITY_EDITOR
         UpdateBrushColorOnEditor();
 #endif
-        if (Input.GetMouseButton(0) == false) return;
-		
-		float radius = brushSize * 0.5f;
-        if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out var hit)) // delete previous and uncomment for mouse painting
+
+        if (Application.isEditor)
         {
+            HandleMouseInput();
+        }
+        else
+        {
+            HandleTouchInput();
+        }
+    }
+
+    private void HandleMouseInput()
+    {
+        if (Input.GetMouseButton(0))
+        {
+            ProcessInput(Input.mousePosition);
+        }
+    }
+
+    private void HandleTouchInput()
+    {
+        if (Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+
+            if (touch.phase == TouchPhase.Began || touch.phase == TouchPhase.Moved)
+            {
+                ProcessInput(touch.position);
+            }
+        }
+    }
+
+    private void ProcessInput(Vector3 inputPosition)
+    {
+        float radius = brushSize * 0.5f;
+        if (Physics.Raycast(Camera.main.ScreenPointToRay(inputPosition), out var hit))
+        {
+
             Collider currentCollider = hit.collider;
             if (currentCollider != null)
             {
