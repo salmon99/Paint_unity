@@ -9,11 +9,14 @@ using System.IO;
 static class PostProcessBuildClass {
     [PostProcessBuild]
     public static void ChangeXcodePlist(BuildTarget buildTarget, string path) {
-        Debug.Log("Post process build ChangeXcodePlist");
-        if (buildTarget == BuildTarget.iOS) {
-            string mainAppPath = Path.Combine(path, "UnityFramework", "UnityFramework.h");
+    public static void ChangeXcodeSettings(BuildTarget buildTarget, string pathToBuiltProject)
+    {
+        if (buildTarget == BuildTarget.iOS)
+        {
+            // Fix for missing UnityFramework.h Xcode issue
+            string mainAppPath = Path.Combine(pathToBuiltProject, "MainApp", "main.mm");
             string mainContent = File.ReadAllText(mainAppPath);
-            string newContent = mainContent.Replace("#import <UnityFramework/UnityAppController.h>", "#import <Classes/UnityAppController.h>");
+            string newContent = mainContent.Replace("#include <UnityFramework/UnityFramework.h>", @"#include ""../UnityFramework/UnityFramework.h""");
             File.WriteAllText(mainAppPath, newContent);
         }
     }
