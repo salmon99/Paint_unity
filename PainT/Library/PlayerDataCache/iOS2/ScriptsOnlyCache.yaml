@@ -1,13 +1,33 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - ReadmeEditor
     Assembly-CSharp.dll:
     - CameraZoomToObject
     - Camera_rotate
+    - DataUploder
+    - Readme
     - TextureColorToData
     - TexturePaintBrush
     - TexturePaintTarget
+    - TouchManager
+    Unity.AdaptivePerformance.Simulator.Editor.dll:
+    - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderSettings
+    Unity.Mobile.AndroidLogcat.Editor.dll:
+    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -15,7 +35,42 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
-  serializedClasses: {}
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+  serializedClasses:
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_GlyphAdjustmentRecord
+    - TMPro.TMP_GlyphPairAdjustmentRecord
+    - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    - TMPro.VertexGradient
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
+    UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.SpriteState
   methodsToPreserve: []
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
@@ -50,24 +105,56 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 17684}
+      Script: {instanceID: 16690}
     - Class: 114
-      Script: {instanceID: 18474}
+      Script: {instanceID: 16912}
     - Class: 114
-      Script: {instanceID: 20892}
+      Script: {instanceID: 17274}
     - Class: 114
-      Script: {instanceID: 21222}
+      Script: {instanceID: 17402}
     - Class: 114
-      Script: {instanceID: 21264}
+      Script: {instanceID: 17580}
     - Class: 114
-      Script: {instanceID: 23074}
+      Script: {instanceID: 17714}
     - Class: 114
-      Script: {instanceID: 23078}
+      Script: {instanceID: 17926}
+    - Class: 114
+      Script: {instanceID: 18230}
+    - Class: 114
+      Script: {instanceID: 18504}
+    - Class: 114
+      Script: {instanceID: 19242}
+    - Class: 114
+      Script: {instanceID: 19502}
+    - Class: 114
+      Script: {instanceID: 20210}
+    - Class: 114
+      Script: {instanceID: 20766}
+    - Class: 114
+      Script: {instanceID: 20918}
+    - Class: 114
+      Script: {instanceID: 20924}
+    - Class: 114
+      Script: {instanceID: 21254}
+    - Class: 114
+      Script: {instanceID: 21296}
+    - Class: 114
+      Script: {instanceID: 21974}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     - Class: 1183024399
       Script: {instanceID: 0}
@@ -140,6 +227,12 @@ ScriptsOnlyBuild:
     className: AdaptiveShadowmapResolution
   - hash:
       serializedVersion: 2
+      Hash: e35ea6144a7a35617b4853c811f48eb6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TexturePaintTarget
+  - hash:
+      serializedVersion: 2
       Hash: f854af586011dd194574f89546642e29
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -182,10 +275,22 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreakMessageListener
   - hash:
       serializedVersion: 2
+      Hash: e39191c8980d202559b0289b03160a5c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DataUploder
+  - hash:
+      serializedVersion: 2
       Hash: 1ab136900c0edaeeb49424c852595030
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 768b16f165a40ed6dc3ab7d3102cf5c9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TexturePaintBrush
   - hash:
       serializedVersion: 2
       Hash: 1321993db8249e1e05e1e0492b2bbdc3
@@ -560,6 +665,12 @@ ScriptsOnlyBuild:
     className: UnityOnPointerClickMessageListener
   - hash:
       serializedVersion: 2
+      Hash: cd20a4fb07d1acaf9512cdc796676866
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LogForwarder
+  - hash:
+      serializedVersion: 2
       Hash: 0b63f6d3335e11939ce8790b904c8691
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -896,6 +1007,12 @@ ScriptsOnlyBuild:
     className: UnityOnScrollRectValueChangedMessageListener
   - hash:
       serializedVersion: 2
+      Hash: b024cda9469205a66c6a6c1ef246e3c0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TouchManager
+  - hash:
+      serializedVersion: 2
       Hash: 830c3b545f6e6ee60a4cebab90516f2c
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -1050,18 +1167,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: e35ea6144a7a35617b4853c811f48eb6
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: TexturePaintTarget
-  - hash:
-      serializedVersion: 2
-      Hash: 768b16f165a40ed6dc3ab7d3102cf5c9
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: TexturePaintBrush
   platform: 9
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
