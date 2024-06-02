@@ -689,8 +689,10 @@ Payload for "WriteText iOSBuild/Unity-iPhone.xcodeproj/project.pbxproj"
 		BEE3E21D322649C83B0DD4DC /* LaunchScreen-iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3A1B4C3FB1FC90023B942E /* LaunchScreen-iPhone.storyboard */; };
 		C88064DCABB5774674576FB0 /* UnityNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF8ED7723F5F14F525382C2 /* UnityNotificationManager.m */; };
 		D085C06443DB1B1B5C6637B6 /* LaunchScreen-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D556450C3DBEECE838996A3D /* LaunchScreen-iPad.png */; };
+		E167B63991502A80972500EF /* NativeCallProxy.mm in Sources */ = {isa = PBXBuildFile; fileRef = EBEECDCCB04F7EEF6390ADB4 /* NativeCallProxy.mm */; };
 		E58B0523150CF74ECD768786 /* UnityNotificationWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE02BCC6F60CA4278D745C3 /* UnityNotificationWrapper.m */; };
 		E897814F291F6E473B733EA2 /* UnityAppController+Notifications.mm in Sources */ = {isa = PBXBuildFile; fileRef = 766557BEE752DEDB4384A9D1 /* UnityAppController+Notifications.mm */; };
+		F00448D59F32A5359C57B609 /* NativeCallProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = B813F2A4838599F922071197 /* NativeCallProxy.h */; };
 		F5C03E9DD3BF40D8EC0F4404 /* LaunchScreen-iPhonePortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 681AA63C19788ACA381FB8C1 /* LaunchScreen-iPhonePortrait.png */; };
 /* End PBXBuildFile section */
 
@@ -1023,6 +1025,7 @@ Payload for "WriteText iOSBuild/Unity-iPhone.xcodeproj/project.pbxproj"
 		B5C3F8FD82EF488C381D6543 /* Unity.Profiling.Core.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Unity.Profiling.Core.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Unity.Profiling.Core.cpp; sourceTree = SOURCE_ROOT; };
 		B65026F4E0A439EAE4490865 /* UnityEngine.IMGUIModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.IMGUIModule_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.IMGUIModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		B662E7588FD9F79EDCF63D17 /* Il2CppCCalculateFieldValues.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCCalculateFieldValues.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Il2CppCCalculateFieldValues.cpp; sourceTree = SOURCE_ROOT; };
+		B813F2A4838599F922071197 /* NativeCallProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NativeCallProxy.h; path = Libraries/Plugins/iOS/NativeCallProxy.h; sourceTree = SOURCE_ROOT; };
 		B9A1D40057435376AC961B25 /* Generics__33.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__33.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__33.cpp; sourceTree = SOURCE_ROOT; };
 		BD54E96698396A5E752F9571 /* Generics__20.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__20.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__20.cpp; sourceTree = SOURCE_ROOT; };
 		BF026C43C97DF354A316F9F4 /* Generics__12.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__12.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__12.cpp; sourceTree = SOURCE_ROOT; };
@@ -1075,6 +1078,7 @@ Payload for "WriteText iOSBuild/Unity-iPhone.xcodeproj/project.pbxproj"
 		EA841D12341C9363E02EE00F /* Unity.TextMeshPro__4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Unity.TextMeshPro__4.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Unity.TextMeshPro__4.cpp; sourceTree = SOURCE_ROOT; };
 		EAFCEA713D2A37FF5D81C6CB /* mscorlib__9.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib__9.cpp; path = Il2CppOutputProject/Source/il2cppOutput/mscorlib__9.cpp; sourceTree = SOURCE_ROOT; };
 		EBE02BCC6F60CA4278D745C3 /* UnityNotificationWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = UnityNotificationWrapper.m; path = Libraries/com.unity.mobile.notifications/Runtime/iOS/Plugins/UnityNotificationWrapper.m; sourceTree = SOURCE_ROOT; };
+		EBEECDCCB04F7EEF6390ADB4 /* NativeCallProxy.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = NativeCallProxy.mm; path = Libraries/Plugins/iOS/NativeCallProxy.mm; sourceTree = SOURCE_ROOT; };
 		EE54DC7E56FA015DDC9659BD /* libil2cpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libil2cpp.a; path = Libraries/libil2cpp.a; sourceTree = SOURCE_ROOT; };
 		F02A78402345158DB659E78E /* UnityEngine.AudioModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.AudioModule_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AudioModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		F09919364E13EC87792FCBE3 /* Unity.TextMeshPro__5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Unity.TextMeshPro__5.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Unity.TextMeshPro__5.cpp; sourceTree = SOURCE_ROOT; };
@@ -1457,6 +1461,15 @@ Payload for "WriteText iOSBuild/Unity-iPhone.xcodeproj/project.pbxproj"
 			path = il2cppOutput;
 			sourceTree = "<group>";
 		};
+		53D667C6AFCF5C846FB3B413 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B813F2A4838599F922071197 /* NativeCallProxy.h */,
+				EBEECDCCB04F7EEF6390ADB4 /* NativeCallProxy.mm */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
 		5623C57817FDCB0800090B9E /* Unity-iPhone Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -1634,6 +1647,7 @@ Payload for "WriteText iOSBuild/Unity-iPhone.xcodeproj/project.pbxproj"
 		D8A1C7220E80637F000160D3 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				E65BCBDDB23DA191911454C2 /* Plugins */,
 				6EF969F3CA6D682ADDD7AC95 /* com.unity.mobile.notifications */,
 				03F528621B447098000F4FB8 /* Il2CppOptions.cpp */,
 				AAC3E38B1A68945900F6174A /* RegisterFeatures.cpp */,
@@ -1644,6 +1658,14 @@ Payload for "WriteText iOSBuild/Unity-iPhone.xcodeproj/project.pbxproj"
 			);
 			path = Libraries;
 			sourceTree = SOURCE_ROOT;
+		};
+		E65BCBDDB23DA191911454C2 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				53D667C6AFCF5C846FB3B413 /* iOS */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
 		};
 		E992AD52B57D9E3D2ED9EE11 /* iOS */ = {
 			isa = PBXGroup;
@@ -1668,6 +1690,7 @@ Payload for "WriteText iOSBuild/Unity-iPhone.xcodeproj/project.pbxproj"
 				9DC67E8921CBBEDF005F9FA1 /* LifeCycleListener.h in Headers */,
 				8BEDFA3929C88F86007F26D7 /* UnityViewControllerBase+visionOS.h in Headers */,
 				38B5C9F93391919B50DBFA29 /* UnityNotificationData.h in Headers */,
+				F00448D59F32A5359C57B609 /* NativeCallProxy.h in Headers */,
 				1A8BC6645C4E9D09FC15AEA0 /* UnityNotificationManager.h in Headers */,
 				86EADB133174425923A7A2CE /* UnityAppController+Notifications.h in Headers */,
 				475B26F38A3A652C6174529D /* IUnityInterface.h in Headers */,
@@ -1922,6 +1945,7 @@ Payload for "WriteText iOSBuild/Unity-iPhone.xcodeproj/project.pbxproj"
 				9D25ABAE213FB6BA00354C27 /* LifeCycleListener.mm in Sources */,
 				9D25ABB2213FB6E300354C27 /* ActivityIndicator.mm in Sources */,
 				9D25ABC9213FB6F800354C27 /* MetalHelper.mm in Sources */,
+				E167B63991502A80972500EF /* NativeCallProxy.mm in Sources */,
 				96973B3981DD32A4D13BB1FC /* UnityNotificationData.m in Sources */,
 				E897814F291F6E473B733EA2 /* UnityAppController+Notifications.mm in Sources */,
 				E58B0523150CF74ECD768786 /* UnityNotificationWrapper.m in Sources */,
@@ -3004,7 +3028,7 @@ Payload for "WriteText iOSBuild/Unity-iPhone.xcodeproj/xcshareddata/xcschemes/Un
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
-   <LaunchAction buildConfiguration="Debug" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" launchStyle="0" useCustomWorkingDirectory="NO" ignoresPersistentStateOnLaunch="NO" debugDocumentVersioning="YES" debugXPCServices="NO" debugServiceExtension="internal" enableGPUFrameCaptureMode="1" enableGPUValidationMode="0" allowLocationSimulation="YES" queueDebuggingEnabled="No" GPUProfilerEnabled="No" disablePerformanceAntipatternChecker="YES">
+   <LaunchAction buildConfiguration="ReleaseForRunning" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" launchStyle="0" useCustomWorkingDirectory="NO" ignoresPersistentStateOnLaunch="NO" debugDocumentVersioning="YES" debugXPCServices="NO" debugServiceExtension="internal" enableGPUFrameCaptureMode="3" enableGPUValidationMode="1" allowLocationSimulation="YES" queueDebuggingEnabled="No" GPUProfilerEnabled="No" disablePerformanceAntipatternChecker="YES">
       <BuildableProductRunnable runnableDebuggingMode="0">
          <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="1D6058900D05DD3D006BFB54" BuildableName="Unity-Target-New.app" BlueprintName="Unity-iPhone" ReferencedContainer="container:Unity-iPhone.xcodeproj">
          </BuildableReference>
