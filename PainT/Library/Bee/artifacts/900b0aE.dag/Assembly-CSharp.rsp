@@ -367,7 +367,6 @@
 "Assets/Scripts/Body_click.cs"
 "Assets/Scripts/Camera_rotate.cs"
 "Assets/Scripts/DataUploader.cs"
-"Assets/Scripts/LogForwarder.cs"
 "Assets/Scripts/TextureColorToData.cs"
 "Assets/Scripts/TexturePaintBrush.cs"
 "Assets/Scripts/TexturePaintTarget.cs"

@@ -41754,7 +41754,7 @@
       "DisplayName": "Writing Unity-iPhone.xcscheme",
       "ActionType": "WriteFile",
       "PayloadOffset": 382342,
-      "PayloadLength": 3343,
+      "PayloadLength": 3331,
       "PayloadDebugContentSnippet": "<?xml version=\"1.0\" encoding=\"",
       "Inputs": [],
       "Outputs": [

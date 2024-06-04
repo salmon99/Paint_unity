@@ -1,198 +1,211 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1717432729691294, "dur":33306, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717432729724613, "dur":30491, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717432729755771, "dur":368, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1717432729756141, "dur":1067, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717432729763569, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Data/boot.config" }}
-,{ "pid":12345, "tid":0, "ts":1717432729771035, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/Source/il2cppOutput/Generics__19.cpp" }}
-,{ "pid":12345, "tid":0, "ts":1717432729771096, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/Source/il2cppOutput/Generics__2.cpp" }}
-,{ "pid":12345, "tid":0, "ts":1717432729772097, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/Source/il2cppOutput/Il2CppCCFieldValuesTable.cpp" }}
-,{ "pid":12345, "tid":0, "ts":1717432729772412, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/Source/il2cppOutput/mscorlib__14.cpp" }}
-,{ "pid":12345, "tid":0, "ts":1717432729777226, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/build/deploy_arm64/Microsoft.CSharp.dll" }}
-,{ "pid":12345, "tid":0, "ts":1717432729781559, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/build/deploy_arm64/System.Xml.XPath.XDocument.dll" }}
-,{ "pid":12345, "tid":0, "ts":1717432729783325, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/build/deploy_x86_64/Bee.BeeDriver.pdb" }}
-,{ "pid":12345, "tid":0, "ts":1717432729784509, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/build/deploy_x86_64/Bee.TundraBackend.pdb" }}
-,{ "pid":12345, "tid":0, "ts":1717432729788184, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/build/deploy_x86_64/System.Runtime.Intrinsics.dll" }}
-,{ "pid":12345, "tid":0, "ts":1717432729790181, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/build/deploy_x86_64/Unity.IL2CPP.Bee.BuildLogic.VisionOS.dll" }}
-,{ "pid":12345, "tid":0, "ts":1717432729793572, "dur":79, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/baselib/Include/Internal/Compiler/CompilerEnvironmentMsvc.h" }}
-,{ "pid":12345, "tid":0, "ts":1717432729794063, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/baselib/Platforms/EmbeddedLinux/Include/C/Baselib_FileIO.inl.h" }}
-,{ "pid":12345, "tid":0, "ts":1717432729794387, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/baselib/Platforms/Linux/Include/C/Baselib_FileIO.inl.h" }}
-,{ "pid":12345, "tid":0, "ts":1717432729798218, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/bdwgc/libatomic_ops/src/atomic_ops/sysdeps/loadstore/short_atomic_store.h" }}
-,{ "pid":12345, "tid":0, "ts":1717432729801008, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/boehm-gc.c" }}
-,{ "pid":12345, "tid":0, "ts":1717432729801875, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/decimal-ms.c" }}
-,{ "pid":12345, "tid":0, "ts":1717432729804025, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/mono-security.c" }}
-,{ "pid":12345, "tid":0, "ts":1717432729806078, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/unity-utils.c" }}
-,{ "pid":12345, "tid":0, "ts":1717432729807296, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/mono/mono/mini/debugger-engine.h" }}
-,{ "pid":12345, "tid":0, "ts":1717432729807570, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/mono/mono/sgen/sgen-cardtable.c" }}
-,{ "pid":12345, "tid":0, "ts":1717432729810719, "dur":95, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-hwcap-vars.h" }}
-,{ "pid":12345, "tid":0, "ts":1717432729811209, "dur":121, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-logger.h" }}
-,{ "pid":12345, "tid":0, "ts":1717432729811986, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-property-hash.c" }}
-,{ "pid":12345, "tid":0, "ts":1717432729816672, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/libil2cpp/icalls/mscorlib/System.Reflection/MonoMethodInfo.h" }}
-,{ "pid":12345, "tid":0, "ts":1717432729824993, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/enc/dictionary_hash.c" }}
-,{ "pid":12345, "tid":0, "ts":1717432729826966, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/libil2cpp/os/Event.h" }}
-,{ "pid":12345, "tid":0, "ts":1717432729827968, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/libil2cpp/os/LibraryLoader.cpp" }}
-,{ "pid":12345, "tid":0, "ts":1717432729831067, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/libil2cpp/os/Win32/SynchronizationContext.cpp" }}
-,{ "pid":12345, "tid":0, "ts":1717432729835137, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/libil2cpp/vm/COMEntryPoints.h" }}
-,{ "pid":12345, "tid":0, "ts":1717432729837728, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Unity-iPhone/Images.xcassets/AppIcon.appiconset/Icon-iPhone-180.png" }}
-,{ "pid":12345, "tid":0, "ts":1717432729757262, "dur":80907, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717432729838188, "dur":143819, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717432729982008, "dur":78, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717432729982098, "dur":20980, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717432730003096, "dur":7372, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717432730010508, "dur":216, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717432730010975, "dur":10811, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1717432729757361, "dur":80844, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1717432729838210, "dur":143782, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717432729757464, "dur":80752, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1717432729838450, "dur":45436, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\Tools\\InternalCallRegistrationWriter\\InternalCallRegistrationWriter.exe" }}
-,{ "pid":12345, "tid":2, "ts":1717432729883887, "dur":97492, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\WindowsBase.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717432729981766, "dur":14058, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\UnityLinker.exe" }}
-,{ "pid":12345, "tid":2, "ts":1717432729996345, "dur":901, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\UnityLinker.deps.json" }}
-,{ "pid":12345, "tid":2, "ts":1717432729997247, "dur":1461, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.TinyProfiler.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717432729998709, "dur":633, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.Options.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717432729999344, "dur":766, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.Linker.Api.Output.xml" }}
-,{ "pid":12345, "tid":2, "ts":1717432730000111, "dur":811, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.Linker.Api.Output.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717432730001225, "dur":683, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Shell.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717432730001908, "dur":1050, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.dll" }}
-,{ "pid":12345, "tid":2, "ts":1717432729838222, "dur":164737, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717432729757525, "dur":80705, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1717432729838234, "dur":162937, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.DataModel.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717432730001172, "dur":1119, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.CompilerServices.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717432730002291, "dur":777, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Common35.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717432730003453, "dur":1001, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Building.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717432730004455, "dur":1105, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717432730005561, "dur":751, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717432730006312, "dur":3506, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.BuildLogic.WindowsDesktop.dll" }}
-,{ "pid":12345, "tid":3, "ts":1717432729838233, "dur":172150, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1717432729757574, "dur":80662, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1717432729838240, "dur":101839, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Api.dll" }}
-,{ "pid":12345, "tid":4, "ts":1717432729940080, "dur":41926, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.Cecil.Visitor.dll" }}
-,{ "pid":12345, "tid":4, "ts":1717432729982006, "dur":12707, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.Cecil.Awesome.dll" }}
-,{ "pid":12345, "tid":4, "ts":1717432729994713, "dur":1359, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.Api.Attributes.dll" }}
-,{ "pid":12345, "tid":4, "ts":1717432729996073, "dur":679, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\ucrtbase.dll" }}
-,{ "pid":12345, "tid":4, "ts":1717432729996753, "dur":735, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Xml.XPath.XDocument.dll" }}
-,{ "pid":12345, "tid":4, "ts":1717432729997488, "dur":859, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Xml.XPath.dll" }}
-,{ "pid":12345, "tid":4, "ts":1717432729998347, "dur":975, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Xml.XmlSerializer.dll" }}
-,{ "pid":12345, "tid":4, "ts":1717432729999323, "dur":779, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Xml.XmlDocument.dll" }}
-,{ "pid":12345, "tid":4, "ts":1717432730000562, "dur":634, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Xml.Serialization.dll" }}
-,{ "pid":12345, "tid":4, "ts":1717432730001197, "dur":685, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Xml.ReaderWriter.dll" }}
-,{ "pid":12345, "tid":4, "ts":1717432730001883, "dur":1249, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":4, "ts":1717432730003429, "dur":1051, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Windows.dll" }}
-,{ "pid":12345, "tid":4, "ts":1717432730004623, "dur":3033, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.ValueTuple.dll" }}
-,{ "pid":12345, "tid":4, "ts":1717432729838240, "dur":169460, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1717432729757614, "dur":80632, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1717432729838252, "dur":161009, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Threading.Timer.dll" }}
-,{ "pid":12345, "tid":5, "ts":1717432729999262, "dur":833, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Threading.ThreadPool.dll" }}
-,{ "pid":12345, "tid":5, "ts":1717432730000544, "dur":888, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Threading.Tasks.Parallel.dll" }}
-,{ "pid":12345, "tid":5, "ts":1717432730001894, "dur":1046, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Threading.Tasks.dll" }}
-,{ "pid":12345, "tid":5, "ts":1717432730003388, "dur":1049, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Threading.Overlapped.dll" }}
-,{ "pid":12345, "tid":5, "ts":1717432730004438, "dur":929, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Threading.dll" }}
-,{ "pid":12345, "tid":5, "ts":1717432730005368, "dur":2119, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Threading.Channels.dll" }}
-,{ "pid":12345, "tid":5, "ts":1717432730007548, "dur":2119, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Text.Encoding.Extensions.dll" }}
-,{ "pid":12345, "tid":5, "ts":1717432729838252, "dur":171590, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717432729757651, "dur":80607, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1717432729838263, "dur":162272, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.Principal.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717432730000536, "dur":633, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717432730001169, "dur":944, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.Cryptography.X509Certificates.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717432730002113, "dur":829, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.Cryptography.Primitives.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717432730003392, "dur":3923, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.Cryptography.Encoding.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717432730007424, "dur":2105, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.Serialization.Xml.dll" }}
-,{ "pid":12345, "tid":6, "ts":1717432729838263, "dur":171474, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1717432729757688, "dur":80581, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1717432729838276, "dur":166223, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.InteropServices.dll" }}
-,{ "pid":12345, "tid":7, "ts":1717432730004500, "dur":675, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.Handles.dll" }}
-,{ "pid":12345, "tid":7, "ts":1717432730005197, "dur":1876, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.dll" }}
-,{ "pid":12345, "tid":7, "ts":1717432730007111, "dur":2240, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.CompilerServices.Unsafe.dll" }}
-,{ "pid":12345, "tid":7, "ts":1717432730009432, "dur":669, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Reflection.TypeExtensions.dll" }}
-,{ "pid":12345, "tid":7, "ts":1717432729838276, "dur":172387, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717432729757732, "dur":80550, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1717432729838288, "dur":158947, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Private.Uri.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717432729997235, "dur":718, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Private.DataContractSerialization.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717432729997954, "dur":1366, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Private.CoreLib.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717432729999321, "dur":792, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.ObjectModel.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717432730000546, "dur":640, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Numerics.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717432730001187, "dur":703, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.WebSockets.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717432730001891, "dur":1090, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.WebSockets.Client.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717432730002981, "dur":616, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.WebProxy.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717432730003598, "dur":846, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.WebHeaderCollection.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717432730004568, "dur":2298, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.ServicePoint.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717432730006918, "dur":2314, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.Primitives.dll" }}
-,{ "pid":12345, "tid":8, "ts":1717432729838288, "dur":171065, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1717432729757779, "dur":80515, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1717432729838300, "dur":156390, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.Mail.dll" }}
-,{ "pid":12345, "tid":9, "ts":1717432729994691, "dur":1406, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.HttpListener.dll" }}
-,{ "pid":12345, "tid":9, "ts":1717432729996560, "dur":694, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.Http.dll" }}
-,{ "pid":12345, "tid":9, "ts":1717432729997254, "dur":878, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.dll" }}
-,{ "pid":12345, "tid":9, "ts":1717432729998133, "dur":1518, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Memory.dll" }}
-,{ "pid":12345, "tid":9, "ts":1717432730000576, "dur":1031, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Linq.Expressions.dll" }}
-,{ "pid":12345, "tid":9, "ts":1717432730001891, "dur":1049, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.UnmanagedMemoryStream.dll" }}
-,{ "pid":12345, "tid":9, "ts":1717432730003396, "dur":1231, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.Pipes.AccessControl.dll" }}
-,{ "pid":12345, "tid":9, "ts":1717432730004696, "dur":1995, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.FileSystem.Watcher.dll" }}
-,{ "pid":12345, "tid":9, "ts":1717432729838300, "dur":168482, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717432729757826, "dur":80483, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1717432729838315, "dur":165069, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717432730003385, "dur":1613, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.Compression.ZipFile.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717432730005070, "dur":1427, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.Compression.Brotli.dll" }}
-,{ "pid":12345, "tid":10, "ts":1717432729838314, "dur":168422, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1717432729757849, "dur":80482, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1717432729838336, "dur":163531, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Diagnostics.FileVersionInfo.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717432730001868, "dur":1045, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Diagnostics.DiagnosticSource.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717432730003401, "dur":1061, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Diagnostics.Contracts.dll" }}
-,{ "pid":12345, "tid":11, "ts":1717432729838336, "dur":166720, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1717432729757897, "dur":80444, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1717432729838347, "dur":143394, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Collections.Concurrent.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717432729981742, "dur":14258, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Buffers.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717432729996346, "dur":916, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\NiceIO.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717432729997263, "dur":515, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717432729997778, "dur":1720, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\netstandard.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717432729999499, "dur":604, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\msquic.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717432730000553, "dur":628, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\mscorlib.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717432730001182, "dur":1297, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\mscordbi.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717432730002479, "dur":545, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\mscordaccore_amd64_amd64_6.0.1823.26907.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717432730003417, "dur":1064, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\monolinker.dll" }}
-,{ "pid":12345, "tid":12, "ts":1717432729838346, "dur":166507, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1717432729757926, "dur":80436, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1717432729838367, "dur":157732, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Microsoft.VisualBasic.dll" }}
-,{ "pid":12345, "tid":13, "ts":1717432729996355, "dur":913, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Microsoft.DiaSymReader.Native.amd64.dll" }}
-,{ "pid":12345, "tid":13, "ts":1717432729997758, "dur":1516, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Microsoft.Bcl.HashCode.dll" }}
-,{ "pid":12345, "tid":13, "ts":1717432729999276, "dur":791, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\JetBrains.Profiler.Api.dll" }}
-,{ "pid":12345, "tid":13, "ts":1717432730000067, "dur":666, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\il2cpp.runtimeconfig.json" }}
-,{ "pid":12345, "tid":13, "ts":1717432730001193, "dur":691, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\il2cpp.dll.config" }}
-,{ "pid":12345, "tid":13, "ts":1717432730001885, "dur":1056, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\il2cpp.dll" }}
-,{ "pid":12345, "tid":13, "ts":1717432730002942, "dur":1040, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\il2cpp.deps.json" }}
-,{ "pid":12345, "tid":13, "ts":1717432730003982, "dur":539, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\hostpolicy.dll" }}
-,{ "pid":12345, "tid":13, "ts":1717432730004629, "dur":1494, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\createdump.exe" }}
-,{ "pid":12345, "tid":13, "ts":1717432729838367, "dur":167854, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717432729757963, "dur":80410, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1717432729838378, "dur":157959, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Tools.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717432729996338, "dur":910, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.Xcode.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717432729997748, "dur":1572, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.VisualStudio.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717432729999321, "dur":761, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.VisionOS.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717432730000537, "dur":626, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.TvOS.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717432730001164, "dur":723, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.MacOS.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717432730001887, "dur":1061, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.LLVM.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717432730003386, "dur":1032, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.IOS.dll" }}
-,{ "pid":12345, "tid":14, "ts":1717432729838378, "dur":166551, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717432729757996, "dur":80404, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1717432729838405, "dur":159319, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Core.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717432729997725, "dur":1596, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.BeeDriver.xml" }}
-,{ "pid":12345, "tid":15, "ts":1717432729999323, "dur":746, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.BeeDriver.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717432730000069, "dur":1040, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\api-ms-win-crt-utility-l1-1-0.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717432730001253, "dur":673, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\api-ms-win-crt-string-l1-1-0.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717432730001928, "dur":1122, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\api-ms-win-crt-stdio-l1-1-0.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717432730003051, "dur":742, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\api-ms-win-crt-runtime-l1-1-0.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717432730003794, "dur":681, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\api-ms-win-crt-process-l1-1-0.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717432730004549, "dur":1387, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\api-ms-win-crt-math-l1-1-0.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717432730006001, "dur":3063, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\api-ms-win-crt-environment-l1-1-0.dll" }}
-,{ "pid":12345, "tid":15, "ts":1717432729838405, "dur":170738, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1717432729758043, "dur":80366, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1717432729838410, "dur":161645, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\api-ms-win-core-sysinfo-l1-1-0.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717432730000540, "dur":662, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\api-ms-win-core-synch-l1-1-0.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717432730001203, "dur":1651, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\api-ms-win-core-string-l1-1-0.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717432730003391, "dur":1043, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\api-ms-win-core-processthreads-l1-1-1.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717432730004435, "dur":1315, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\api-ms-win-core-processthreads-l1-1-0.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717432730005814, "dur":3099, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\api-ms-win-core-localization-l1-2-0.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717432730009008, "dur":944, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\api-ms-win-core-handle-l1-1-0.dll" }}
-,{ "pid":12345, "tid":16, "ts":1717432729838410, "dur":172310, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1717432730033954, "dur":1264, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1717499658099380, "dur":3749, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717499658103145, "dur":1499, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717499658105089, "dur":284, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1717499658105374, "dur":1037, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717499658106565, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Data/level0.resS" }}
+,{ "pid":12345, "tid":0, "ts":1717499658106774, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1717499658108784, "dur":99, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.GridModule-FeaturesChecked.txt_3xfm.info" }}
+,{ "pid":12345, "tid":0, "ts":1717499658109142, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/iOS/Features/UnityEngine.JSONSerializeModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":0, "ts":1717499658109753, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt_4y5l.info" }}
+,{ "pid":12345, "tid":0, "ts":1717499658115396, "dur":87, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/Source/il2cppOutput/Il2CppCCFieldValuesTable.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1717499658117840, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextCoreTextEngineModule__2.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1717499658118859, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericInstDefinitions.c" }}
+,{ "pid":12345, "tid":0, "ts":1717499658119347, "dur":87, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.GameCenterModule_CodeGen.c" }}
+,{ "pid":12345, "tid":0, "ts":1717499658119804, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SubsystemsModule_CodeGen.c" }}
+,{ "pid":12345, "tid":0, "ts":1717499658120801, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/build/deploy_arm64/Bee.BeeDriver.xml" }}
+,{ "pid":12345, "tid":0, "ts":1717499658122319, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/build/deploy_arm64/Bee.TundraBackend.dll" }}
+,{ "pid":12345, "tid":0, "ts":1717499658123401, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/build/deploy_arm64/Mono.Cecil.dll" }}
+,{ "pid":12345, "tid":0, "ts":1717499658124138, "dur":170, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/build/deploy_arm64/System.Diagnostics.FileVersionInfo.dll" }}
+,{ "pid":12345, "tid":0, "ts":1717499658124946, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/build/deploy_arm64/System.IO.FileSystem.AccessControl.dll" }}
+,{ "pid":12345, "tid":0, "ts":1717499658125388, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/build/deploy_arm64/System.Net.Http.Json.dll" }}
+,{ "pid":12345, "tid":0, "ts":1717499658129114, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/build/deploy_arm64/Unity.IL2CPP.Bee.BuildLogic.Linux.dll" }}
+,{ "pid":12345, "tid":0, "ts":1717499658130997, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/build/deploy_x86_64/Bee.BeeDriver.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1717499658131058, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/build/deploy_x86_64/Bee.BeeDriver.xml" }}
+,{ "pid":12345, "tid":0, "ts":1717499658133481, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/build/deploy_x86_64/Mono.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":0, "ts":1717499658137493, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/build/deploy_x86_64/System.Security.Cryptography.Algorithms.dll" }}
+,{ "pid":12345, "tid":0, "ts":1717499658139050, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/build/deploy_x86_64/Unity.Cecil.Awesome.dll" }}
+,{ "pid":12345, "tid":0, "ts":1717499658139869, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/build/deploy_x86_64/Unity.IL2CPP.Bee.BuildLogic.Linux.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1717499658140161, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/build/deploy_x86_64/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll" }}
+,{ "pid":12345, "tid":0, "ts":1717499658141161, "dur":85, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/build/deploy_x86_64/UnityLinker.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1717499658141564, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/baselib/Include/C/Baselib_Debug.h" }}
+,{ "pid":12345, "tid":0, "ts":1717499658146024, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/baselib/Platforms/OSX/Include/C/Baselib_ThreadLocalStorage.inl.h" }}
+,{ "pid":12345, "tid":0, "ts":1717499658149789, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/bdwgc/libatomic_ops/src/atomic_ops/sysdeps/all_aligned_atomic_load_store.h" }}
+,{ "pid":12345, "tid":0, "ts":1717499658149969, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/bdwgc/libatomic_ops/src/atomic_ops/sysdeps/armcc/arm_v6.h" }}
+,{ "pid":12345, "tid":0, "ts":1717499658154142, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/mono/mono/eglib/glib.h" }}
+,{ "pid":12345, "tid":0, "ts":1717499658154585, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/mono/mono/eglib/gslist.c" }}
+,{ "pid":12345, "tid":0, "ts":1717499658155379, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/class-accessors.c" }}
+,{ "pid":12345, "tid":0, "ts":1717499658155595, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/class.h" }}
+,{ "pid":12345, "tid":0, "ts":1717499658157729, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/marshal-internals.h" }}
+,{ "pid":12345, "tid":0, "ts":1717499658157991, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/mempool.h" }}
+,{ "pid":12345, "tid":0, "ts":1717499658161046, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/sre.c" }}
+,{ "pid":12345, "tid":0, "ts":1717499658161469, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/threads-types.h" }}
+,{ "pid":12345, "tid":0, "ts":1717499658161753, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/verify-internals.h" }}
+,{ "pid":12345, "tid":0, "ts":1717499658161982, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/w32error-win32.c" }}
+,{ "pid":12345, "tid":0, "ts":1717499658163074, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/w32socket.h" }}
+,{ "pid":12345, "tid":0, "ts":1717499658163956, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/mono/mono/sgen/sgen-gray.c" }}
+,{ "pid":12345, "tid":0, "ts":1717499658167113, "dur":94, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-lazy-init.h" }}
+,{ "pid":12345, "tid":0, "ts":1717499658168501, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/mono-publib.h" }}
+,{ "pid":12345, "tid":0, "ts":1717499658169932, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/mono/mono/utils/os-event-win32.c" }}
+,{ "pid":12345, "tid":0, "ts":1717499658170863, "dur":114, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/external/zlib/gzwrite.c" }}
+,{ "pid":12345, "tid":0, "ts":1717499658176543, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/libil2cpp/icalls/mscorlib/System/Buffer.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1717499658184877, "dur":101, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/libil2cpp/os/ClassLibraryPAL/brotli/enc/utf8_util.h" }}
+,{ "pid":12345, "tid":0, "ts":1717499658186186, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/libil2cpp/os/Generic/CrashHelpers.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1717499658186841, "dur":107, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/libil2cpp/os/LibraryLoader.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1717499658187521, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/libil2cpp/os/Posix/Console.cpp" }}
+,{ "pid":12345, "tid":0, "ts":1717499658192010, "dur":81, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/libil2cpp/utils/Il2CppError.h" }}
+,{ "pid":12345, "tid":0, "ts":1717499658195608, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/libil2cpp/vm/Image.h" }}
+,{ "pid":12345, "tid":0, "ts":1717499658197487, "dur":78, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iOSBuild/Il2CppOutputProject/IL2CPP/libil2cpp/vm/WeakReference.h" }}
+,{ "pid":12345, "tid":0, "ts":1717499658198375, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CollectRequiredReasonAPIs Library/Bee/artifacts/iOS/AppleRequiredReasonCSharpAPIs.txt" }}
+,{ "pid":12345, "tid":0, "ts":1717499658106462, "dur":92316, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717499658198800, "dur":62731, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717499658261532, "dur":75, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717499658261622, "dur":39384, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717499658301021, "dur":4390, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717499658305423, "dur":19101, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717499658324672, "dur":171, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717499658324962, "dur":14585, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1717499658106584, "dur":92228, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717499658198817, "dur":62703, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717499658106686, "dur":92135, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717499658199046, "dur":39444, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\Tools\\InternalCallRegistrationWriter\\InternalCallRegistrationWriter.exe" }}
+,{ "pid":12345, "tid":2, "ts":1717499658238492, "dur":47441, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\WindowsBase.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717499658285934, "dur":9099, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\UnityLinker.runtimeconfig.json" }}
+,{ "pid":12345, "tid":2, "ts":1717499658295034, "dur":1340, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\UnityLinker.exe" }}
+,{ "pid":12345, "tid":2, "ts":1717499658296374, "dur":1493, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\UnityLinker.dll.config" }}
+,{ "pid":12345, "tid":2, "ts":1717499658297868, "dur":718, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\UnityLinker.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717499658298628, "dur":2169, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.TinyProfiler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717499658198826, "dur":102094, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717499658106748, "dur":92081, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717499658198833, "dur":84940, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.DataModel.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717499658283775, "dur":11429, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.CompilerServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717499658295205, "dur":885, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Common35.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717499658296090, "dur":1786, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Common.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717499658297877, "dur":726, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Building.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717499658298604, "dur":2044, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717499658300648, "dur":1056, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717499658301705, "dur":1354, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.BuildLogic.WindowsDesktop.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717499658303131, "dur":2075, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.BuildLogic.MacOSX.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717499658198833, "dur":106522, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717499658106806, "dur":92034, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717499658198846, "dur":96133, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Api.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717499658294979, "dur":1251, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.Cecil.Visitor.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717499658296231, "dur":1654, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.Cecil.Awesome.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717499658297886, "dur":728, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.Api.Attributes.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717499658298614, "dur":782, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\ucrtbase.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717499658299397, "dur":3511, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Xml.XPath.XDocument.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717499658302908, "dur":2144, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Xml.XPath.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717499658305147, "dur":19175, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717499658198846, "dur":125612, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717499658106855, "dur":91996, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717499658198855, "dur":98997, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Threading.Timer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717499658297852, "dur":729, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Threading.ThreadPool.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717499658298666, "dur":1827, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Threading.Tasks.Parallel.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717499658300568, "dur":2196, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717499658302764, "dur":2136, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Threading.Channels.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717499658304965, "dur":19143, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Text.Encoding.Extensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717499658198855, "dur":125390, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717499658106904, "dur":91955, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717499658198864, "dur":97173, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.Principal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717499658296038, "dur":1893, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717499658297931, "dur":2412, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.Cryptography.X509Certificates.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717499658300392, "dur":4372, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.Cryptography.Encoding.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717499658304889, "dur":19050, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.Serialization.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717499658198864, "dur":125269, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717499658106974, "dur":91898, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717499658198879, "dur":95478, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.InteropServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717499658294357, "dur":1280, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.Handles.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717499658296064, "dur":2160, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717499658298617, "dur":1584, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.CompilerServices.Unsafe.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717499658300266, "dur":2343, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Reflection.TypeExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717499658302664, "dur":1906, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Reflection.Extensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717499658198879, "dur":105821, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717499658107017, "dur":91868, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717499658198891, "dur":95304, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Private.Uri.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717499658294196, "dur":1298, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Private.DataContractSerialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717499658295495, "dur":571, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Private.CoreLib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717499658296066, "dur":1838, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.ObjectModel.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717499658297904, "dur":903, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Numerics.Vectors.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717499658298872, "dur":3588, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.WebProxy.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717499658302529, "dur":1884, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.ServicePoint.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717499658304469, "dur":19389, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.Primitives.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717499658198891, "dur":125081, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717499658107078, "dur":91833, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717499658198917, "dur":95090, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.Mail.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717499658294007, "dur":1025, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.HttpListener.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717499658295033, "dur":1526, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.Http.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717499658296559, "dur":1343, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717499658297903, "dur":2145, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717499658300048, "dur":2288, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Memory.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717499658302463, "dur":1793, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.Pipes.AccessControl.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717499658304301, "dur":19268, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.FileSystem.Watcher.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717499658198916, "dur":124779, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717499658107132, "dur":91790, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717499658198927, "dur":94894, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717499658293822, "dur":1526, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.Compression.ZipFile.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717499658295348, "dur":705, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.Compression.Native.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717499658296053, "dur":1812, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717499658297866, "dur":713, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717499658298579, "dur":1322, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.Compression.Brotli.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717499658299963, "dur":2193, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Formats.Asn1.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717499658302372, "dur":1744, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Diagnostics.Tracing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717499658198926, "dur":105292, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717499658107191, "dur":91758, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717499658198954, "dur":94688, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Diagnostics.FileVersionInfo.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717499658293643, "dur":1392, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Diagnostics.DiagnosticSource.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717499658295035, "dur":2296, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Diagnostics.Debug.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717499658297331, "dur":547, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Diagnostics.Contracts.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717499658297879, "dur":719, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717499658298694, "dur":1054, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Data.Common.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717499658299844, "dur":2153, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.ComponentModel.TypeConverter.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717499658302053, "dur":1910, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.ComponentModel.DataAnnotations.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717499658198954, "dur":105102, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717499658107236, "dur":91722, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717499658198962, "dur":94482, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Collections.Concurrent.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717499658293444, "dur":1561, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Buffers.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717499658295005, "dur":2115, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.AppContext.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717499658297120, "dur":785, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\SharpYaml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717499658297905, "dur":725, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\NiceIO.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717499658298676, "dur":570, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717499658299309, "dur":2083, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\mscordbi.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717499658301456, "dur":2358, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Mono.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717499658198962, "dur":104942, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717499658107271, "dur":91695, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1717499658198971, "dur":94286, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Microsoft.VisualBasic.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717499658293258, "dur":1739, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Microsoft.VisualBasic.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717499658294998, "dur":1971, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Microsoft.DiaSymReader.Native.amd64.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717499658296970, "dur":911, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Microsoft.CSharp.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717499658297882, "dur":724, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Microsoft.Bcl.HashCode.dll" }}
+,{ "pid":12345, "tid":13, "ts":1717499658299172, "dur":2067, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\il2cpp.deps.json" }}
+,{ "pid":12345, "tid":13, "ts":1717499658301296, "dur":2222, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\createdump.exe" }}
+,{ "pid":12345, "tid":13, "ts":1717499658198970, "dur":104634, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717499658107304, "dur":91677, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1717499658198987, "dur":94136, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Tools.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717499658293124, "dur":1864, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.Xcode.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717499658294989, "dur":1836, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.Windows.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717499658296825, "dur":1070, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.VisualStudio.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717499658297896, "dur":740, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.VisionOS.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717499658298677, "dur":864, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.TvOS.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717499658299596, "dur":2252, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.IOS.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717499658301915, "dur":1754, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.Android.dll" }}
+,{ "pid":12345, "tid":14, "ts":1717499658198987, "dur":104779, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717499658107337, "dur":91655, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1717499658198997, "dur":93964, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717499658292961, "dur":2056, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.BeeDriver.xml" }}
+,{ "pid":12345, "tid":15, "ts":1717499658295018, "dur":1657, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.BeeDriver.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717499658296676, "dur":1708, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\api-ms-win-crt-utility-l1-1-0.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717499658299008, "dur":2094, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\api-ms-win-crt-math-l1-1-0.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717499658301163, "dur":2198, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\api-ms-win-crt-environment-l1-1-0.dll" }}
+,{ "pid":12345, "tid":15, "ts":1717499658198996, "dur":104447, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717499658107390, "dur":91612, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1717499658199004, "dur":87108, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\api-ms-win-core-sysinfo-l1-1-0.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717499658286117, "dur":8920, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\api-ms-win-core-synch-l1-2-0.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717499658295037, "dur":1022, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\api-ms-win-core-synch-l1-1-0.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717499658296060, "dur":2467, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\api-ms-win-core-string-l1-1-0.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717499658298680, "dur":2265, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\api-ms-win-core-processthreads-l1-1-0.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717499658301014, "dur":2195, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\api-ms-win-core-localization-l1-2-0.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717499658303275, "dur":2072, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\api-ms-win-core-handle-l1-1-0.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717499658305348, "dur":19155, "ph":"X", "name": "File",  "args": { "detail":"E:\\unityhub\\2022.3.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\api-ms-win-core-file-l2-1-0.dll" }}
+,{ "pid":12345, "tid":16, "ts":1717499658199004, "dur":125799, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717499658351856, "dur":1163, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

@@ -31,11 +31,6 @@ extern void U3CCaptureAndUploadDataU3Ed__12_MoveNext_m38CD2C790187EAA23DDF209F80
 extern void U3CCaptureAndUploadDataU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE3EA0C2C8082519E49E87BDF71BD877B0B4F9E87 (void);
 extern void U3CCaptureAndUploadDataU3Ed__12_System_Collections_IEnumerator_Reset_m50A8750806BA9E40AAA1399E175C9449C00E3EBE (void);
 extern void U3CCaptureAndUploadDataU3Ed__12_System_Collections_IEnumerator_get_Current_m2AC352578294749D1E970C91EEB90D277989BB60 (void);
-extern void LogForwarder_ForwardLogToiOS_m5E8897F47A02D781F675855F3703EE3659C5EFC7 (void);
-extern void LogForwarder_OnEnable_m4335F788E3D80A8D0F6B5B9333606CC836E898D1 (void);
-extern void LogForwarder_OnDisable_mFC236B0824A789BA6834EE7B5EC2FBF8D233E337 (void);
-extern void LogForwarder_HandleLog_mC25B582EAD6BF45F43C455C437764537D4604EFB (void);
-extern void LogForwarder__ctor_mD66C36A366585064F13F244F6DBA9E827C763212 (void);
 extern void TextureColorToData_Start_m28D53D986B76A5831D003A738C8502C31CE6AA1F (void);
 extern void TextureColorToData_ReadCSV_mCA4A1BF6121ACCF2674D84A97CE44B849420DC56 (void);
 extern void TextureColorToData_Update_mBAC743ACD939BEEE491A3DB62B45DF487412EC5E (void);
@@ -64,7 +59,7 @@ extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
 extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[52] = 
+static Il2CppMethodPointer s_methodPointers[47] = 
 {
 	CameraZoomToObject_Start_m5D0FE4D363BFB102B45CC8528F45994910E6FA86,
 	CameraZoomToObject_Update_mD2CFB4F69EE7FAC1C4CC231D9035E12160696135,
@@ -85,11 +80,6 @@ static Il2CppMethodPointer s_methodPointers[52] =
 	U3CCaptureAndUploadDataU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE3EA0C2C8082519E49E87BDF71BD877B0B4F9E87,
 	U3CCaptureAndUploadDataU3Ed__12_System_Collections_IEnumerator_Reset_m50A8750806BA9E40AAA1399E175C9449C00E3EBE,
 	U3CCaptureAndUploadDataU3Ed__12_System_Collections_IEnumerator_get_Current_m2AC352578294749D1E970C91EEB90D277989BB60,
-	LogForwarder_ForwardLogToiOS_m5E8897F47A02D781F675855F3703EE3659C5EFC7,
-	LogForwarder_OnEnable_m4335F788E3D80A8D0F6B5B9333606CC836E898D1,
-	LogForwarder_OnDisable_mFC236B0824A789BA6834EE7B5EC2FBF8D233E337,
-	LogForwarder_HandleLog_mC25B582EAD6BF45F43C455C437764537D4604EFB,
-	LogForwarder__ctor_mD66C36A366585064F13F244F6DBA9E827C763212,
 	TextureColorToData_Start_m28D53D986B76A5831D003A738C8502C31CE6AA1F,
 	TextureColorToData_ReadCSV_mCA4A1BF6121ACCF2674D84A97CE44B849420DC56,
 	TextureColorToData_Update_mBAC743ACD939BEEE491A3DB62B45DF487412EC5E,
@@ -119,7 +109,7 @@ static Il2CppMethodPointer s_methodPointers[52] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[52] = 
+static const int32_t s_InvokerIndices[47] = 
 {
 	4829,
 	4829,
@@ -140,11 +130,6 @@ static const int32_t s_InvokerIndices[52] =
 	4726,
 	4829,
 	4726,
-	6802,
-	4829,
-	4829,
-	1101,
-	4829,
 	4829,
 	4829,
 	4829,
@@ -178,7 +163,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	52,
+	47,
 	s_methodPointers,
 	0,
 	NULL,
