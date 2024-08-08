@@ -15,7 +15,7 @@ E:/github/Unity/PainT
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-13099
+7276
 Successfully changed project path to: E:/github/Unity/PainT
 E:/github/Unity/PainT
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ E:/github/Unity/PainT
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24472] Host "[IP] 192.168.137.1 [Port] 0 [Flags] 2 [Guid] 3087834261 [EditorId] 3087834261 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LR31QLG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1920] Host "[IP] 192.168.137.1 [Port] 0 [Flags] 2 [Guid] 1605630383 [EditorId] 1605630383 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LR31QLG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [24472] Host "[IP] 192.168.137.1 [Port] 0 [Flags] 2 [Guid] 3087834261 [EditorId] 3087834261 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LR31QLG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1920] Host "[IP] 192.168.137.1 [Port] 0 [Flags] 2 [Guid] 1605630383 [EditorId] 1605630383 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LR31QLG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 22.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 340.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.24f1 (334eb2a0b267)
 [Subsystems] Discovering subsystems at path E:/unityhub/2022.3.24f1/Editor/Data/Resources/UnitySubsystems
@@ -70,53 +70,53 @@ Initialize mono
 Mono path[0] = 'E:/unityhub/2022.3.24f1/Editor/Data/Managed'
 Mono path[1] = 'E:/unityhub/2022.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/unityhub/2022.3.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/unityhub/2022.3.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/unityhub/2022.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: E:/unityhub/2022.3.24f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: E:/unityhub/2022.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012058 seconds.
-- Loaded All Assemblies, in  0.500 seconds
+Registered in 0.118196 seconds.
+- Loaded All Assemblies, in  2.088 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 522 ms
+Android Extension - Scanning For ADB Devices 1218 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.974 seconds
-Domain Reload Profiling: 1474ms
-	BeginReloadAssembly (162ms)
+- Finished resetting the current domain, in  2.141 seconds
+Domain Reload Profiling: 4229ms
+	BeginReloadAssembly (1300ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (209ms)
-		LoadAssemblies (165ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (186ms)
+	LoadAllAssembliesAndSetupDomain (517ms)
+		LoadAssemblies (1304ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (203ms)
-			TypeCache.Refresh (201ms)
-				TypeCache.ScanAssembly (184ms)
+		AnalyzeDomain (509ms)
+			TypeCache.Refresh (506ms)
+				TypeCache.ScanAssembly (483ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (974ms)
+	FinalizeReload (2142ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (901ms)
+		SetupLoadedEditorAssemblies (2039ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (666ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (1698ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (153ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (228ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -124,76 +124,80 @@ Domain Reload Profiling: 1474ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file data-000001EF6BC40150 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file data-0000015309EA3020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6BC40150 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000015309EA3020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6BC40150 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000015309EAD030 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6BC40150 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-0000015309EAD030 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6BC5CB60 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.dll
+Symbol file data-0000015309EAD030 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6BC5CB60 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000015309EAD030 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6BC7E570 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000015309EC9A40 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6BC84180 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Extension.dll
+Symbol file data-0000015309EC9A40 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6BC8C190 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file data-0000015309EEB450 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C7D7E20 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000015309EF1060 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Extension.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C7D7E20 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-00000152E8715730 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C7D7E20 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Profiler.Editor.dll
+Symbol file data-00000152E872D540 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C819630 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000152E872D540 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8E4C7050 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-00000152E872D540 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Profiler.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C833E50 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001530A967020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C833E50 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Editor.dll
+Symbol file data-000001530A967020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C833E50 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.UI.Editor.dll
+Symbol file data-00000152E876ED50 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8E4FE660 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000152E876ED50 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6CA35270 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-00000152E876ED50 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.UI.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6CA35270 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-000001530A9B0E40 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6CA59080 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001530A9B0E40 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C838660 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-000001530A2A2C50 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C838660 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file data-000001530A2A2C50 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6CA59080 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file data-000001530A9D9460 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C838660 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-0000015309F030A0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6CA59080 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001530A2A2C50 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8E51F470 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000152E793C020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8E51F470 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000152E795CE30 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C838660 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Editor.dll
+Symbol file data-00000152E8308E90 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C838660 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-00000152E83418A0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6CA64E90 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000152E8357EB0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6CA64E90 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file data-000001530A9D9460 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6CA64E90 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Profiling.Core.dll
+Symbol file data-000001530A9D9460 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6CA64E90 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.Unified.dll
+Symbol file data-000001530A9D9460 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.Android.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.772 seconds
-Refreshing native plugins compatible for Editor in 7.06 ms, found 3 plugins.
+Symbol file data-000001530A9D9460 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Profiling.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A9D9460 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.Unified.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  3.712 seconds
+Refreshing native plugins compatible for Editor in 60.03 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -209,47 +213,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.704 seconds
-Domain Reload Profiling: 1476ms
-	BeginReloadAssembly (220ms)
+- Finished resetting the current domain, in  0.903 seconds
+Domain Reload Profiling: 4615ms
+	BeginReloadAssembly (1193ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (447ms)
-		LoadAssemblies (408ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (2390ms)
+		LoadAssemblies (3301ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (191ms)
-			TypeCache.Refresh (164ms)
-				TypeCache.ScanAssembly (141ms)
-			ScanForSourceGeneratedMonoScriptInfo (19ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (705ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (173ms)
+				TypeCache.ScanAssembly (151ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (904ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (489ms)
+		SetupLoadedEditorAssemblies (698ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (42ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (51ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (347ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (534ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 6.61 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (22ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.25 seconds
+Refreshing native plugins compatible for Editor in 7.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3230 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 42 unused Assets / (35.4 KB). Loaded Objects now: 3707.
-Memory consumption went from 143.3 MB to 143.2 MB.
-Total: 3.555200 ms (FindLiveObjects: 0.344900 ms CreateObjectMapping: 0.094600 ms MarkObjects: 3.033500 ms  DeleteObjects: 0.081000 ms)
+Memory consumption went from 143.3 MB to 143.3 MB.
+Total: 3.961700 ms (FindLiveObjects: 0.372500 ms CreateObjectMapping: 0.106300 ms MarkObjects: 3.390700 ms  DeleteObjects: 0.090500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -266,85 +270,87 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 139522.410719 seconds.
-  path: Assets/Models/female_end2.fbx
-  artifactKey: Guid(619a6cfe0d1415040a4cd3cee70bf973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/female_end2.fbx using Guid(619a6cfe0d1415040a4cd3cee70bf973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb20e7a229ebc4c1007d9b01a341ec8') in 0.206956 seconds
+  Time since last request: 30747.295574 seconds.
+  path: Assets/Scripts/DataUploder.cs
+  artifactKey: Guid(3f1fd2cb6b3e9934b812b8916ead6d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DataUploder.cs using Guid(3f1fd2cb6b3e9934b812b8916ead6d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54e1749d982f3f2fa06c9e2a694cea4') in 0.003410 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 153
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file data-000001EF6C609010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file data-000001530A0C5880 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8EB89F30 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001530A0C5880 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF97E9A020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000152E7AA1060 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C609010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-00000152E7C0E670 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6BC18020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.dll
+Symbol file data-000001530A0C5880 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C609010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001530A782010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6BC18020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001530A0C5880 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8F780370 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Extension.dll
+Symbol file data-000001530A782010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8FA7EA40 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file data-000001530A782010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Extension.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8FA7EA40 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001530A78A020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF96F44020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-0000015309B280A0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C60EC20 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Profiler.Editor.dll
+Symbol file data-00000153132C0020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C004DF0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001530A78A020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Profiler.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8E1CA010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-00000153132C0020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6BC18020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001530A8C16F0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6BC18020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Editor.dll
+Symbol file data-0000015309B280A0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C60EC20 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.UI.Editor.dll
+Symbol file data-000001530A78A020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8EC0F060 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001530A78A020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.UI.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF984D9890 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-00000152E7AC2A70 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF977A6030 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0000015313912020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8FCE46D0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000152E7AC2A70 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8E0ECCE0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-00000152E8648EA0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C41E150 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file data-00000153132F7630 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8FCE46D0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file data-00000153132F7630 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6BC18020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-00000152E8648EA0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C78E010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000015309B280A0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF972D8020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000152E877B6A0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8FCE46D0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000015312CC8020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6BC18020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Editor.dll
+Symbol file data-0000015312CA0630 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6BF0F6E0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-0000015309B280A0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6BF0F6E0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000015309B280A0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6BF0F6E0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file data-00000153136D3030 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF901D9390 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Profiling.Core.dll
+Symbol file data-00000152E808D850 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.Android.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF901D9390 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.Unified.dll
+Symbol file data-000001531394E640 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Profiling.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.583 seconds
-Refreshing native plugins compatible for Editor in 6.80 ms, found 3 plugins.
+Symbol file data-000001531394E640 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.Unified.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.113 seconds
+Refreshing native plugins compatible for Editor in 7.85 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -356,46 +362,46 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.219 seconds
-Domain Reload Profiling: 1801ms
-	BeginReloadAssembly (222ms)
+- Finished resetting the current domain, in 28.042 seconds
+Domain Reload Profiling: 30154ms
+	BeginReloadAssembly (955ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (103ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (259ms)
-		LoadAssemblies (396ms)
+		CreateAndSetChildDomain (270ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (1048ms)
+		LoadAssemblies (1356ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1220ms)
+		AnalyzeDomain (48ms)
+			TypeCache.Refresh (26ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (28042ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (508ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (49ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (351ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (346ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (27ms)
-Refreshing native plugins compatible for Editor in 6.67 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 7.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3208 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (37.8 KB). Loaded Objects now: 3753.
-Memory consumption went from 140.6 MB to 140.6 MB.
-Total: 35.624400 ms (FindLiveObjects: 0.340200 ms CreateObjectMapping: 0.126500 ms MarkObjects: 35.076200 ms  DeleteObjects: 0.080500 ms)
+Unloading 34 unused Assets / (37.9 KB). Loaded Objects now: 3710.
+Memory consumption went from 140.2 MB to 140.1 MB.
+Total: 7.023600 ms (FindLiveObjects: 0.534700 ms CreateObjectMapping: 0.131300 ms MarkObjects: 6.142100 ms  DeleteObjects: 0.213800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -414,76 +420,78 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file data-000001EF8FA83B80 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file data-000001530BBF6020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8EB89F30 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001530BBF6020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8E46C020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000153145C40A0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8FA83B80 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-00000152E7C0E670 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C89B010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.dll
+Symbol file data-000001530BBF6020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8FA83B80 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000015313D9F010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6BC18020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001530BBF6020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF9700C010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Extension.dll
+Symbol file data-000001530BCD4070 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C89B010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file data-00000152E7AEB020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Extension.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C89B010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000015313E43010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF97286020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-000001530AA818F0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C8A3020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Profiler.Editor.dll
+Symbol file data-0000015312D1A020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8E5A4020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000015313E43010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Profiler.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8E1CA010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-00000153142B4970 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6BC18020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001530B0A2010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C8A3020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Editor.dll
+Symbol file data-0000015313E43010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C8A3020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.UI.Editor.dll
+Symbol file data-0000015313E43010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8EC0F060 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000015313E43010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.UI.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C67D6A0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-00000153134D6010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF98139030 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-00000152E7AF7BF0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8FCE46D0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001530A3AE010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8E21D020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-00000153133E0010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8E21D020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file data-000001530AA818F0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8FCE46D0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file data-000001530AA818F0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6BC18020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-00000153133E0010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF97BBC010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001530AA818F0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF984D9890 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000152E8401020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8FCE46D0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000152E7AF7BF0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6BC18020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Editor.dll
+Symbol file data-000001530B73EA90 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C8A3020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-0000015313C34020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C8A3020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000015313C34020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF6C8A3020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file data-0000015313C34020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8DF4FF20 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Profiling.Core.dll
+Symbol file data-000001531409C310 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.Android.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EF8DF4FF20 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.Unified.dll
+Symbol file data-000001531409C310 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Profiling.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.565 seconds
-Refreshing native plugins compatible for Editor in 6.69 ms, found 3 plugins.
+Symbol file data-000001531409C310 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.Unified.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.678 seconds
+Refreshing native plugins compatible for Editor in 7.50 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -495,46 +503,77 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.305 seconds
-Domain Reload Profiling: 1870ms
-	BeginReloadAssembly (231ms)
+- Finished resetting the current domain, in  1.260 seconds
+Domain Reload Profiling: 1937ms
+	BeginReloadAssembly (243ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (248ms)
-		LoadAssemblies (391ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (334ms)
+		LoadAssemblies (487ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (5ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (1306ms)
+	FinalizeReload (1261ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (579ms)
+		SetupLoadedEditorAssemblies (516ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (66ms)
+			InitializePlatformSupportModulesInManaged (48ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (388ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (354ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-Refreshing native plugins compatible for Editor in 6.42 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 7.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3209 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (36.7 KB). Loaded Objects now: 3756.
-Memory consumption went from 142.8 MB to 142.8 MB.
-Total: 3.198900 ms (FindLiveObjects: 0.349400 ms CreateObjectMapping: 0.093800 ms MarkObjects: 2.692500 ms  DeleteObjects: 0.062200 ms)
+Unloading 34 unused Assets / (36.8 KB). Loaded Objects now: 3713.
+Memory consumption went from 142.4 MB to 142.3 MB.
+Total: 3.725300 ms (FindLiveObjects: 0.433200 ms CreateObjectMapping: 0.109100 ms MarkObjects: 3.105400 ms  DeleteObjects: 0.076200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 46134.980975 seconds.
+  path: Assets/Scripts/DataUploder.cs
+  artifactKey: Guid(3f1fd2cb6b3e9934b812b8916ead6d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DataUploder.cs using Guid(3f1fd2cb6b3e9934b812b8916ead6d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185b376f7fce8866e7155de91c910329') in 0.002810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.9 KB). Loaded Objects now: 3713.
+Memory consumption went from 92.1 MB to 92.1 MB.
+Total: 55.957500 ms (FindLiveObjects: 0.971500 ms CreateObjectMapping: 0.299900 ms MarkObjects: 54.647700 ms  DeleteObjects: 0.036100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -552,12 +591,430 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 6.38 ms, found 3 plugins.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001530BCD4070 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152E7AA1060 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000153145B5030 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015313E48150 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152E7A0F4C0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015313E48150 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015314098090 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530BCD9C80 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Extension.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152E7A0F4C0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152E7A0F4C0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000153143EC020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015313E48150 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Profiler.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A3CDF40 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A8C16F0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152E7A0F4C0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015313E48150 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015313E48150 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.UI.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000153134D6010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015309F9B010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152E85CA010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000153133E0010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530BCD9C80 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152E7B22380 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000153133E0010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152E7A0F4C0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152E8401020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A029010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000153130D0010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015314098090 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152E7A174D0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152E7A174D0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152E7A174D0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000153136DD240 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Profiling.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000153136DD240 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.Unified.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.070 seconds
+Refreshing native plugins compatible for Editor in 7.15 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 55.402 seconds
+Domain Reload Profiling: 56472ms
+	BeginReloadAssembly (239ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (734ms)
+		LoadAssemblies (870ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (55403ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (858ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (169ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (544ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Script is not up to date after domain reload: guid(e52e5adc29cb27b498d3994000b1691b) path("Assets/Scripts/Editor/XcodePostBuild.cs") state(2)
+Refreshing native plugins compatible for Editor in 8.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3209 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (36.8 KB). Loaded Objects now: 3716.
+Memory consumption went from 144.3 MB to 144.3 MB.
+Total: 33.467300 ms (FindLiveObjects: 0.366400 ms CreateObjectMapping: 0.121300 ms MarkObjects: 32.841600 ms  DeleteObjects: 0.136100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-00000152E808D850 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152E7AA1060 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152E7BA8040 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152E808D850 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015312CA8020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152E808D850 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000153132F2020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152E837E430 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Extension.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A0B0020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530AA818F0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015314810010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A0B0020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Profiler.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A3CDF40 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152E848B010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530AA818F0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A0B0020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A0B0020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.UI.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000153134D6010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015309F9B010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000153143EC020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015309DB4250 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A2A8030 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A0B4830 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015309DB4250 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530AA818F0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015313F83010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001531473E020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000153131EC020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530AA818F0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015313FB9020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015313FB9020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015313FB9020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A0B4830 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Profiling.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A0B4830 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.Unified.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.192 seconds
+Refreshing native plugins compatible for Editor in 7.97 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 15.522 seconds
+Domain Reload Profiling: 16713ms
+	BeginReloadAssembly (237ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (854ms)
+		LoadAssemblies (986ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (15523ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (506ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (351ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 7.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3210 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (36.8 KB). Loaded Objects now: 3720.
+Memory consumption went from 146.3 MB to 146.2 MB.
+Total: 3.611900 ms (FindLiveObjects: 0.340200 ms CreateObjectMapping: 0.106200 ms MarkObjects: 3.091400 ms  DeleteObjects: 0.073000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001530C046020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152E7AA1060 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015313CA4010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530C046020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015312CA8020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530C046020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015314386010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A89A040 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Extension.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A89A040 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530AA818F0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A4B6010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530BBF6020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Profiler.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530B356010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530B0A2010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530AA818F0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530BBF6020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530BBF9230 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.UI.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000153134D6010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152E7AF7BF0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015313560070 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015309DB4250 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530B379E20 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530B379E20 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015309DB4250 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530AA818F0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015313F83010 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000152E7AF7BF0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015313396700 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530AA818F0 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.AdaptivePerformance.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530B379E20 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530B379E20 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530B379E20 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530B379E20 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Profiling.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A0B0020 doesn't match image E:\github\Unity\PainT\Library\ScriptAssemblies\Unity.Notifications.Unified.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.649 seconds
+Refreshing native plugins compatible for Editor in 7.80 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.351 seconds
+Domain Reload Profiling: 2000ms
+	BeginReloadAssembly (307ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (253ms)
+		LoadAssemblies (459ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1352ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (603ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (426ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 7.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3210 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (36.8 KB). Loaded Objects now: 3723.
+Memory consumption went from 148.2 MB to 148.2 MB.
+Total: 3.936200 ms (FindLiveObjects: 0.445500 ms CreateObjectMapping: 0.128000 ms MarkObjects: 3.269600 ms  DeleteObjects: 0.091700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3756.
-Memory consumption went from 93.1 MB to 93.1 MB.
-Total: 3.071500 ms (FindLiveObjects: 0.318500 ms CreateObjectMapping: 0.090400 ms MarkObjects: 2.642700 ms  DeleteObjects: 0.019200 ms)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3723.
+Memory consumption went from 98.5 MB to 98.5 MB.
+Total: 3.523900 ms (FindLiveObjects: 0.358900 ms CreateObjectMapping: 0.128400 ms MarkObjects: 3.004800 ms  DeleteObjects: 0.030700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):

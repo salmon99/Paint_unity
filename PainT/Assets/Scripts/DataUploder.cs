@@ -139,6 +139,7 @@ public class DataUploder : MonoBehaviour{
             bodyPartENLogs.Clear();
         }
         uploadButton.gameObject.SetActive(true);
+		Application.Unload();
     }
     
     private Texture2D CaptureScreenshot()
